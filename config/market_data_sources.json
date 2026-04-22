@@ -1,0 +1,54 @@
+{
+  "start_date": "2010-01-01",
+  "end_date": null,
+  "anchor_symbol": "SPY",
+  "raw_dir": "data/raw",
+  "output_path": "data/processed/aligned_market_data.parquet",
+  "yahoo_symbols": [
+    {
+      "symbol": "SPY",
+      "column": "spy_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "QQQ",
+      "column": "qqq_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "TLT",
+      "column": "tlt_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "IEF",
+      "column": "ief_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "GLD",
+      "column": "gld_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "USO",
+      "column": "uso_adj_close",
+      "price_field": "adjclose"
+    },
+    {
+      "symbol": "^VIX",
+      "column": "vix_close",
+      "price_field": "close"
+    }
+  ],
+  "fred_series": [
+    {
+      "series_id": "DGS2",
+      "column": "dgs2_yield_pct"
+    },
+    {
+      "series_id": "DGS10",
+      "column": "dgs10_yield_pct"
+    }
+  ]
+}
