@@ -1,46 +1,91 @@
 # Cross-Asset Regime Detection Pipeline
 
-本项目用于复现一个完整的量化研究流程：  
-从市场数据下载与清洗开始，构建特征，训练 walk-forward HMM 与 walk-forward K-means 基线，执行策略回测，输出诊断、子区间分析、图表和最终报告。
+This repository reproduces an end-to-end quantitative research workflow:
+market data ingestion and alignment, feature engineering, walk-forward regime modeling (HMM + K-means baseline), strategy backtesting, diagnostics, robustness checks, figure generation, and final report assembly.
 
 ---
 
-## 1. 项目目标与流程概览
+## 1) Pipeline Overview
 
-完整复现链路如下（按顺序执行）：
+Run the following scripts in order:
 
-1. 下载并对齐数据：`scripts/01_download_data.py`
-2. 构建特征：`scripts/02_build_features.py`
-3. 训练 walk-forward HMM：`scripts/06_fit_walkforward_hmm.py`
-4. 训练 walk-forward K-means 基线：`scripts/04_fit_clustering_baseline.py`
-5. 运行 HMM 回测：`scripts/07_run_walkforward_backtest.py`
-6. 运行 K-means 回测：`scripts/08_run_kmeans_backtest.py`
-7. 回测诊断：`scripts/11_build_backtest_diagnostics.py`
-8. HMM 稳健性检验：`scripts/12_run_hmm_robustness.py`
-9. 子区间分析：`scripts/13_run_subperiod_analysis.py`
-10. 生成最终图表：`scripts/09_build_final_figures.py`
-11. 组装最终报告：`scripts/10_assemble_final_report.py`
+1. Download and align market data: `scripts/01_download_data.py`
+2. Build modeling features: `scripts/02_build_features.py`
+3. Fit walk-forward HMM: `scripts/06_fit_walkforward_hmm.py`
+4. Fit walk-forward K-means baseline: `scripts/04_fit_clustering_baseline.py`
+5. Run HMM backtest: `scripts/07_run_walkforward_backtest.py`
+6. Run K-means backtest: `scripts/08_run_kmeans_backtest.py`
+7. Build backtest diagnostics: `scripts/11_build_backtest_diagnostics.py`
+8. Run HMM robustness checks: `scripts/12_run_hmm_robustness.py`
+9. Run subperiod analysis: `scripts/13_run_subperiod_analysis.py`
+10. Build final figures: `scripts/09_build_final_figures.py`
+
 
 ---
 
-## 2. 从 0 开始环境配置
+## 2) Project Results (Current Run)
 
-### 2.1 系统要求
+The following metrics come directly from:
 
-- macOS / Linux / Windows 均可（已在 macOS 下开发）
-- Python `3.10+`（推荐 `3.10` 或 `3.11`）
-- 可联网访问 Yahoo Finance 与 FRED API
+- `results/backtests/kmeans_vs_walkforward_strategy_metrics.csv`
+- `results/models/hmm_robustness_summary.csv`
+- `results/backtests/shared_window_subperiod_metrics.csv`
 
-### 2.2 克隆仓库
+### Shared-window strategy comparison (3321 observations)
+
+| Portfolio | Cumulative Return | Annualized Return | Annualized Volatility | Sharpe | Max Drawdown |
+|---|---:|---:|---:|---:|---:|
+| walkforward_hmm_regime_strategy | 2.2411 | 0.0933 | 0.0981 | 0.9592 | -0.2510 |
+| kmeans_regime_strategy | 0.8704 | 0.0487 | 0.0874 | 0.5873 | -0.3237 |
+| equal_weight_4_asset | 1.3364 | 0.0665 | 0.0814 | 0.8315 | -0.2163 |
+| fixed_60_40_stock_bond | 2.3137 | 0.0952 | 0.1023 | 0.9401 | -0.2409 |
+
+Key takeaways:
+
+- The walk-forward HMM materially outperforms the walk-forward K-means baseline on return, Sharpe, and drawdown.
+- Versus static benchmarks, HMM is competitive with fixed 60/40 on cumulative return and Sharpe, but does not strictly dominate drawdown.
+
+### Subperiod behavior (HMM vs K-means)
+
+From `results/backtests/shared_window_subperiod_metrics.csv`:
+
+- `2013-2016`: HMM beats K-means (higher return and Sharpe)
+- `2017-2019`: K-means has slightly higher Sharpe
+- `2020-2022`: HMM strongly outperforms K-means (K-means return is negative)
+- `2023-2026`: K-means is slightly stronger than HMM
+
+This indicates HMM’s edge is real on the full shared window, but not uniform across all market regimes.
+
+### HMM robustness highlights
+
+From `results/models/hmm_robustness_summary.csv`:
+
+- Baseline spec (`3 states`, monthly refit, diag covariance) has state persistence `0.9187`
+- Alternative specs keep high persistence (roughly `0.91` to `0.97`)
+- The tied-covariance variant reaches the highest persistence (`0.9696`)
+
+Overall, regime assignments remain stable across reasonable specification changes.
+
+---
+
+## 3) Environment Setup From Scratch
+
+### Requirements
+
+- Python `3.10+` (recommended: `3.10` or `3.11`)
+- Internet access to Yahoo Finance and FRED API
+- macOS / Linux / Windows
+
+### Clone repository
 
 ```bash
 git clone <your-repo-url>
 cd project_code
 ```
 
-### 2.3 创建并激活虚拟环境
+### Create and activate virtual environment
 
-#### macOS / Linux
+macOS / Linux:
 
 ```bash
 python3 -m venv .venv
@@ -48,7 +93,7 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 ```
 
-#### Windows (PowerShell)
+Windows (PowerShell):
 
 ```powershell
 python -m venv .venv
@@ -56,120 +101,103 @@ python -m venv .venv
 python -m pip install --upgrade pip
 ```
 
-### 2.4 安装依赖
-
-优先使用仓库内的依赖文件安装：
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-如需手动安装，核心依赖如下：
+Manual equivalent:
 
 ```bash
 pip install numpy pandas scikit-learn hmmlearn yfinance fredapi pyarrow pillow
 ```
 
-> 说明：  
-> - `pyarrow` 用于 parquet 读写；  
-> - `pillow` 用于生成最终 PNG 图；  
-> - `fredapi` 需要配合 FRED API Key 使用。
-
 ---
 
-## 3. API Key 配置（必须）
+## 4) API Key Setup (Required)
 
-数据下载步骤依赖 FRED。请先申请并配置 FRED API Key：
+The data ingestion step uses FRED via `fredapi`.
 
-1. 在 [FRED 官网](https://fred.stlouisfed.org/)申请 API Key
-2. 在项目根目录创建 `.env` 文件（与 `scripts/` 同级）
-3. 写入：
+1. Request a FRED API key at [FRED](https://fred.stlouisfed.org/)
+2. Create `.env` at repository root
+3. Add:
 
 ```env
-FRED_API_KEY=你的_fred_key
+FRED_API_KEY=your_fred_api_key
 ```
 
-`scripts/01_download_data.py` 会自动读取根目录 `.env` 并注入环境变量。
+`scripts/01_download_data.py` automatically loads `.env`.
 
 ---
 
-## 4. 数据与配置说明
+## 5) Data and Configuration
 
-- 数据源配置文件：`config/market_data_sources.json`
-- 默认抓取区间：
-  - `start_date`: `2010-01-01`
-  - `end_date`: `null`（表示跑到当天）
-- 默认输出：
-  - 原始单序列：`data/raw/`
-  - 对齐后主数据：`data/processed/aligned_market_data.parquet`
+- Source config: `config/market_data_sources.json`
+- Default start date: `2010-01-01`
+- Default end date: `null` (up to current date)
+- Main processed output: `data/processed/aligned_market_data.parquet`
+- Raw per-series outputs: `data/raw/`
 
 ---
 
-## 5. 逐步复现（推荐首次）
+## 6) Step-by-Step Reproduction
 
-以下命令均在项目根目录执行。
+Run all commands from repository root.
 
-### Step 1) 下载并对齐市场数据
+### Step 1: Download and align data
 
 ```bash
 python scripts/01_download_data.py
 ```
 
-预期产出：
+Outputs:
 
 - `data/processed/aligned_market_data.parquet`
 - `data/raw/*.csv`
 
----
-
-### Step 2) 构建建模特征表
+### Step 2: Build features
 
 ```bash
 python scripts/02_build_features.py
 ```
 
-预期产出：
+Outputs:
 
 - `data/processed/model_features.parquet`
 
----
-
-### Step 3) 训练 walk-forward HMM
+### Step 3: Fit walk-forward HMM
 
 ```bash
 python scripts/06_fit_walkforward_hmm.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/regimes/hmm_walkforward_state_labels.parquet`
 - `results/regimes/hmm_walkforward_state_probabilities.parquet`
 - `results/models/hmm_walkforward_metadata.json`
 - `docs/hmm_walkforward_notes.md`
 
----
-
-### Step 4) 训练 walk-forward K-means 基线
+### Step 4: Fit walk-forward K-means baseline
 
 ```bash
 python scripts/04_fit_clustering_baseline.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/regimes/cluster_labels.parquet`
 - `results/models/clustering_baseline_metadata.json`
 - `docs/clustering_baseline_notes.md`
 
----
-
-### Step 5) HMM 策略回测
+### Step 5: Run HMM backtest
 
 ```bash
 python scripts/07_run_walkforward_backtest.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/backtests/walkforward_strategy_returns.parquet`
 - `results/backtests/walkforward_strategy_variant_returns.parquet`
@@ -179,15 +207,13 @@ python scripts/07_run_walkforward_backtest.py
 - `results/backtests/walkforward_allocation_sweep_metadata.json`
 - `docs/backtest_walkforward_notes.md`
 
----
-
-### Step 6) K-means 策略回测
+### Step 6: Run K-means backtest
 
 ```bash
 python scripts/08_run_kmeans_backtest.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/backtests/kmeans_strategy_returns.parquet`
 - `results/backtests/kmeans_benchmark_returns.parquet`
@@ -195,77 +221,55 @@ python scripts/08_run_kmeans_backtest.py
 - `results/backtests/kmeans_vs_walkforward_strategy_metrics.csv`
 - `docs/backtest_kmeans_notes.md`
 
----
-
-### Step 7) 回测诊断（换手率、交易成本敏感性）
+### Step 7: Build diagnostics (turnover and cost sensitivity)
 
 ```bash
 python scripts/11_build_backtest_diagnostics.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/backtests/strategy_turnover_summary.csv`
 - `results/backtests/strategy_cost_sensitivity.csv`
 - `docs/backtest_diagnostics.md`
 
----
-
-### Step 8) HMM 稳健性检查
+### Step 8: Run HMM robustness checks
 
 ```bash
 python scripts/12_run_hmm_robustness.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/models/hmm_robustness_summary.csv`
 - `docs/hmm_robustness_notes.md`
 
----
-
-### Step 9) 子区间比较分析
+### Step 9: Run subperiod analysis
 
 ```bash
 python scripts/13_run_subperiod_analysis.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/backtests/shared_window_subperiod_metrics.csv`
 - `docs/subperiod_analysis.md`
 
----
-
-### Step 10) 生成最终图表
+### Step 10: Build final figures
 
 ```bash
 python scripts/09_build_final_figures.py
 ```
 
-预期产出：
+Outputs:
 
 - `results/figures/figure_01_regime_persistence_comparison.png`
 - `results/figures/figure_02_shared_window_nav_comparison.png`
 - `results/figures/figure_03_walkforward_state_probabilities.png`
 - `results/figures/figure_04_shared_window_strategy_metrics.png`
 
----
 
-### Step 11) 组装最终报告
-
-```bash
-python scripts/10_assemble_final_report.py
-```
-
-预期产出：
-
-- `deliverables/final_report/ELEN4904_final_report.md`
-- `deliverables/final_report/assets/*.png`
-
----
-
-## 6. 一键复现命令（已配好环境后）
+## 7) One-Command Full Run
 
 ```bash
 python scripts/01_download_data.py && \
@@ -278,14 +282,13 @@ python scripts/11_build_backtest_diagnostics.py && \
 python scripts/12_run_hmm_robustness.py && \
 python scripts/13_run_subperiod_analysis.py && \
 python scripts/09_build_final_figures.py && \
-python scripts/10_assemble_final_report.py
 ```
 
 ---
 
-## 7. 结果自检清单
+## 8) Reproducibility Checklist
 
-复现完成后，至少检查以下文件是否存在且非空：
+After running the pipeline, verify these files exist and are non-empty:
 
 - `data/processed/aligned_market_data.parquet`
 - `data/processed/model_features.parquet`
@@ -299,31 +302,32 @@ python scripts/10_assemble_final_report.py
 
 ---
 
-## 8. 常见问题排查
+## 9) Troubleshooting
 
 - `Missing FRED_API_KEY environment variable`  
-  没有配置 `.env` 或变量名不正确。确认根目录 `.env` 包含 `FRED_API_KEY=...`。
+  Add `FRED_API_KEY=...` to root `.env`.
 
-- `Missing dependency 'yfinance'` 或 `Missing dependency 'fredapi'`  
-  说明当前 Python 环境未安装依赖，重新执行 `pip install ...`。
+- `Missing dependency 'yfinance'` or `Missing dependency 'fredapi'`  
+  Reinstall dependencies with `pip install -r requirements.txt`.
 
-- parquet 读写报错（`pyarrow` / `fastparquet`）  
-  执行 `pip install pyarrow`。
+- Parquet import/export error (`pyarrow` / `fastparquet`)  
+  Install `pyarrow`.
 
-- 下载阶段网络报错或空数据  
-  重试命令；确认网络能访问 Yahoo 与 FRED；必要时更换网络环境。
+- Network/data download failures  
+  Retry, check network connectivity, and ensure Yahoo/FRED endpoints are reachable.
 
-- Windows 激活虚拟环境失败  
-  使用管理员 PowerShell，或执行：`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` 后重试。
+- Windows virtual environment activation issues  
+  Run PowerShell as admin, then:
+  `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ---
 
-## 9. 可复现性建议（给协作者）
+## 10) Collaboration Notes
 
-- 每次实验固定同一套 Python 小版本（如 3.10.x）
-- 将 `.env` 与关键输出路径保持一致
-- 复现时按本文档顺序执行，不跳步
-- 提交结果时建议附带：
-  - `results/models/*.json` 元数据
-  - `docs/*notes*.md` 简要说明
-  - 关键 `results/backtests/*.csv`
+- Keep Python minor version consistent across collaborators (for example `3.10.x`)
+- Keep `.env` naming and output paths consistent
+- Run scripts in the documented order
+- Share these artifacts for easier validation:
+  - `results/models/*.json`
+  - `docs/*notes*.md`
+  - key tables in `results/backtests/*.csv`
