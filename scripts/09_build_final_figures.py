@@ -93,6 +93,17 @@ def normalize_dates(frame: pd.DataFrame) -> pd.DataFrame:
     return normalized
 
 
+def infer_walkforward_comparison_row(metrics: pd.DataFrame) -> str:
+    candidates = [
+        portfolio_name
+        for portfolio_name in metrics["portfolio_name"].astype(str).tolist()
+        if portfolio_name.startswith("walkforward_hmm")
+    ]
+    if not candidates:
+        raise ValueError("Comparison metrics are missing a walk-forward HMM row.")
+    return candidates[0]
+
+
 def compute_run_statistics(labels: pd.Series) -> tuple[float, float]:
     values = labels.astype(int).to_numpy()
     same_as_previous = float((values[1:] == values[:-1]).mean()) if len(values) > 1 else 1.0
@@ -137,6 +148,44 @@ def draw_panel(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], title:
     )
     draw.text((left + 24, top + 18), title, font=SECTION_FONT, fill=PALETTE["ink"])
     draw.line((left + 24, top + 58, right - 24, top + 58), fill=PALETTE["grid"], width=2)
+
+
+def draw_wrapped_legend(
+    draw: ImageDraw.ImageDraw,
+    box: tuple[int, int, int, int],
+    items: list[tuple[str, str]],
+    *,
+    start_y: int,
+    start_x_offset: int = 70,
+    item_gap: int = 28,
+    row_gap: int = 14,
+) -> int:
+    left, _, right, _ = box
+    x = left + start_x_offset
+    y = start_y
+    swatch_width = 24
+    swatch_height = 12
+    text_y_offset = -6
+    row_height = 24
+    max_x = right - 34
+
+    for label, color in items:
+        text_bbox = draw.textbbox((0, 0), label, font=LABEL_FONT)
+        text_width = text_bbox[2] - text_bbox[0]
+        item_width = swatch_width + 10 + text_width
+        if x != left + start_x_offset and x + item_width > max_x:
+            x = left + start_x_offset
+            y += row_height + row_gap
+
+        draw.rounded_rectangle(
+            (x, y + 6, x + swatch_width, y + 6 + swatch_height),
+            radius=4,
+            fill=color,
+        )
+        draw.text((x + swatch_width + 10, y + text_y_offset), label, font=LABEL_FONT, fill=PALETTE["ink"])
+        x += item_width + item_gap
+
+    return y + row_height
 
 
 def draw_vertical_bars(
@@ -202,7 +251,13 @@ def draw_line_chart(
     left, top, right, bottom = box
     chart_left = left + 70
     chart_right = right - 34
-    chart_top = top + 96
+    legend_bottom = draw_wrapped_legend(
+        draw,
+        box,
+        [(label, color) for label, _, color in series_specs],
+        start_y=top + 74,
+    )
+    chart_top = legend_bottom + 28
     chart_bottom = bottom - 70
 
     y_values = []
@@ -247,17 +302,6 @@ def draw_line_chart(
         points = [(map_x(ts), map_y(value)) for ts, value in zip(frame[date_column], frame[column], strict=True)]
         draw.line(points, fill=color, width=4)
 
-    legend_x = chart_left
-    legend_y = top + 28
-    for label, _, color in series_specs:
-        draw.rounded_rectangle(
-            (legend_x, legend_y + 6, legend_x + 24, legend_y + 18),
-            radius=4,
-            fill=color,
-        )
-        draw.text((legend_x + 34, legend_y), label, font=LABEL_FONT, fill=PALETTE["ink"])
-        legend_x += 240
-
     draw.text((chart_left, chart_top - 36), y_label, font=SMALL_FONT, fill=PALETTE["muted"])
 
 
@@ -269,7 +313,17 @@ def draw_probability_ribbon(
     left, top, right, bottom = box
     chart_left = left + 60
     chart_right = right - 30
-    chart_top = top + 84
+    legend_bottom = draw_wrapped_legend(
+        draw,
+        box,
+        [
+            ("State 0: risk-off", PALETTE["state_0"]),
+            ("State 1: transition", PALETTE["state_1"]),
+            ("State 2: risk-on", PALETTE["state_2"]),
+        ],
+        start_y=top + 74,
+    )
+    chart_top = legend_bottom + 24
     chart_bottom = bottom - 60
 
     reduced = probabilities.copy()
@@ -307,17 +361,6 @@ def draw_probability_ribbon(
         draw.line((chart_left, y, chart_right, y), fill=PALETTE["grid"], width=1)
         draw.text((left + 10, y - 10), f"{tick * 20}%", font=SMALL_FONT, fill=PALETTE["muted"])
 
-    legend_x = chart_left
-    legend_y = top + 28
-    for label, color in [
-        ("State 0: risk-off", PALETTE["state_0"]),
-        ("State 1: transition", PALETTE["state_1"]),
-        ("State 2: risk-on", PALETTE["state_2"]),
-    ]:
-        draw.rounded_rectangle((legend_x, legend_y + 6, legend_x + 24, legend_y + 18), radius=4, fill=color)
-        draw.text((legend_x + 34, legend_y), label, font=LABEL_FONT, fill=PALETTE["ink"])
-        legend_x += 250
-
     min_date = probabilities["date"].min()
     max_date = probabilities["date"].max()
     year_ticks = pd.date_range(min_date.normalize(), max_date.normalize(), freq="YS")
@@ -343,21 +386,45 @@ def draw_horizontal_metric_bars(
 ) -> None:
     draw_panel(draw, box, title)
     left, top, right, bottom = box
-    chart_left = left + 220
-    chart_right = right - 36
     chart_top = top + 90
     row_gap = 64
-    scale_min = 0.0
     scale_max = max(values)
+    label_font = LABEL_FONT
+    label_width = max(draw.textbbox((0, 0), label, font=label_font)[2] for label in labels)
+    value_width = max(draw.textbbox((0, 0), formatter(value), font=VALUE_FONT)[2] for value in values)
+
+    panel_width = right - left
+    label_gap = 18
+    value_gutter = max(88, value_width + 20)
+    min_track_width = 92
+    available_width = panel_width - 48
+    max_label_area = available_width - value_gutter - min_track_width - label_gap
+    if label_width > max_label_area:
+        label_font = SMALL_FONT
+        label_width = max(draw.textbbox((0, 0), label, font=label_font)[2] for label in labels)
+    label_area = min(max(150, label_width + 18), max_label_area)
+
+    chart_left = left + 24 + label_area + label_gap
+    track_right = right - 24 - value_gutter
+    chart_right = right - 24
 
     for idx, (label, value, color) in enumerate(zip(labels, values, colors, strict=True)):
         y = chart_top + idx * row_gap
-        draw.text((left + 24, y + 10), label, font=LABEL_FONT, fill=PALETTE["ink"])
+        draw.text((left + 24, y + 8), label, font=label_font, fill=PALETTE["ink"])
         x0 = chart_left
-        x1 = int(chart_left + value * (chart_right - chart_left) / max(scale_max, 1e-9))
+        x1 = int(chart_left + value * (track_right - chart_left) / max(scale_max, 1e-9))
+        draw.rounded_rectangle((chart_left, y, track_right, y + 34), radius=12, fill="#F2EADF")
         draw.rounded_rectangle((x0, y, x1, y + 34), radius=12, fill=color)
         value_text = formatter(value)
-        draw.text((chart_right - 96, y + 8), value_text, font=VALUE_FONT, fill=PALETTE["ink"])
+        text_box = draw.textbbox((0, 0), value_text, font=VALUE_FONT)
+        text_width = text_box[2] - text_box[0]
+        if x1 - x0 >= text_width + 28:
+            text_x = x1 - text_width - 14
+            text_fill = PALETTE["panel"]
+        else:
+            text_x = min(x1 + 12, chart_right - text_width)
+            text_fill = PALETTE["ink"]
+        draw.text((text_x, y + 8), value_text, font=VALUE_FONT, fill=text_fill)
 
 
 def build_persistence_figure() -> Path:
@@ -432,7 +499,7 @@ def build_nav_figure() -> Path:
     draw_header(
         draw,
         "Shared-Window NAV Comparison",
-        "The walk-forward HMM materially beats the fair walk-forward K-means baseline, but both dynamic rules trail the benchmark portfolios.",
+        "The refreshed HMM portfolio layer materially beats K-means and equal-weight, while fixed 60/40 still finishes with the highest shared-window NAV.",
     )
     panel = (72, 170, 1528, 782)
     draw_panel(draw, panel, "Growth of $1")
@@ -478,9 +545,10 @@ def build_probability_figure() -> Path:
 
 def build_metric_figure() -> Path:
     metrics = pd.read_csv(COMPARISON_METRICS_PATH)
+    walkforward_row_name = infer_walkforward_comparison_row(metrics)
     metrics = metrics.set_index("portfolio_name").loc[
         [
-            "walkforward_hmm_regime_strategy",
+            walkforward_row_name,
             "kmeans_regime_strategy",
             "equal_weight_4_asset",
             "fixed_60_40_stock_bond",
@@ -506,7 +574,7 @@ def build_metric_figure() -> Path:
     draw_header(
         draw,
         "Shared-Window Strategy Metrics",
-        "The walk-forward HMM wins the model-to-model comparison, but the fixed 60/40 benchmark is still strongest overall.",
+        "The primary HMM strategy now beats K-means and equal-weight by a wide margin, and it edges fixed 60/40 on Sharpe while trailing it slightly on cumulative return.",
     )
 
     panel_1 = (72, 170, 500, 860)

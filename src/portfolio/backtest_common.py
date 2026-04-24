@@ -75,6 +75,26 @@ def validate_allocation_map(
             )
 
 
+def validate_weight_frame(
+    weight_frame: pd.DataFrame,
+    name: str = "strategy",
+) -> None:
+    required_columns = list(WEIGHT_COLUMN_BY_ASSET.values())
+    missing_columns = [column for column in required_columns if column not in weight_frame.columns]
+    if missing_columns:
+        raise ValueError(
+            f"{name} weight frame is missing columns: " + ", ".join(missing_columns)
+        )
+    if weight_frame[required_columns].isna().any().any():
+        raise ValueError(f"{name} weight frame contains missing values.")
+
+    weight_values = weight_frame[required_columns].to_numpy(dtype=float)
+    if (weight_values < -1e-9).any():
+        raise ValueError(f"{name} weight frame contains negative allocations.")
+    if not np.allclose(weight_values.sum(axis=1), 1.0, atol=1e-6):
+        raise ValueError(f"{name} weight rows do not sum to 1.0 within tolerance.")
+
+
 def load_market_data(input_path: str | Path) -> pd.DataFrame:
     path = Path(input_path)
     if not path.exists():
@@ -163,6 +183,39 @@ def run_strategy_backtest(
     return strategy_frame
 
 
+def run_strategy_backtest_from_weights(
+    signal_frame: pd.DataFrame,
+    weight_frame: pd.DataFrame,
+    name: str = "strategy",
+) -> pd.DataFrame:
+    strategy_frame = signal_frame.reset_index(drop=True).copy()
+    aligned_weights = weight_frame.reset_index(drop=True).copy()
+
+    if len(strategy_frame) != len(aligned_weights):
+        raise ValueError(f"{name} weight frame row count does not match the signal frame.")
+    if "date" in aligned_weights.columns:
+        aligned_dates = pd.to_datetime(aligned_weights["date"]).dt.normalize()
+        if not aligned_dates.equals(strategy_frame["date"].reset_index(drop=True)):
+            raise ValueError(f"{name} weight frame dates do not align with the signal frame.")
+
+    validate_weight_frame(aligned_weights, name=name)
+
+    for column in aligned_weights.columns:
+        if column == "date":
+            continue
+        strategy_frame[column] = aligned_weights[column].to_numpy()
+
+    strategy_returns = pd.Series(0.0, index=strategy_frame.index, dtype=float)
+    for asset in TRADED_ASSETS:
+        strategy_returns = strategy_returns + (
+            strategy_frame[RETURN_COLUMN_BY_ASSET[asset]]
+            * strategy_frame[WEIGHT_COLUMN_BY_ASSET[asset]]
+        )
+    strategy_frame["strategy_return"] = strategy_returns
+    strategy_frame["strategy_nav"] = build_nav_series(strategy_frame["strategy_return"]).to_numpy()
+    return strategy_frame
+
+
 def run_benchmark_backtests(
     signal_frame: pd.DataFrame,
     benchmark_allocations: dict[str, dict[str, float]],
@@ -230,14 +283,17 @@ def build_markdown_table(headers: list[str], rows: list[list[str]]) -> str:
     return "\n".join(markdown_rows)
 
 
-def build_allocation_table() -> str:
+def build_allocation_table(
+    allocation_map: dict[int, dict[str, float]] = REGIME_ALLOCATIONS,
+    label_map: dict[int, str] = STATE_LABELS,
+) -> str:
     rows = []
-    for state in sorted(REGIME_ALLOCATIONS):
-        allocation = REGIME_ALLOCATIONS[state]
+    for state in sorted(allocation_map):
+        allocation = allocation_map[state]
         rows.append(
             [
                 str(state),
-                STATE_LABELS[state],
+                label_map.get(state, str(state)),
                 format_percentage(allocation["SPY"]),
                 format_percentage(allocation["TLT"]),
                 format_percentage(allocation["IEF"]),

@@ -1,0 +1,118 @@
+{
+  "market_data_path": "data/processed/aligned_market_data.parquet",
+  "hmm_labels_path": "results/regimes/hmm_walkforward_state_labels.parquet",
+  "hmm_probabilities_path": "results/regimes/hmm_walkforward_state_probabilities.parquet",
+  "hmm_metadata_path": "results/models/hmm_walkforward_metadata.json",
+  "primary_variant_name": "benchmark_relative_tilt_confidence_gate",
+  "variant_specs": [
+    {
+      "name": "hard_label_fixed_map",
+      "description": "Legacy hard-label strategy using the existing hand-picked regime map.",
+      "uses_probabilities": false,
+      "uses_confidence_gate": false,
+      "uses_optimizer": false
+    },
+    {
+      "name": "probability_weighted_fixed_templates",
+      "description": "Probability-weighted version of the legacy hand-picked templates using the predictive HMM state probabilities directly.",
+      "uses_probabilities": true,
+      "uses_confidence_gate": false,
+      "uses_optimizer": false
+    },
+    {
+      "name": "benchmark_relative_tilt",
+      "description": "Probability-weighted benchmark-relative tilt around the fixed 60/40 stock-bond base.",
+      "uses_probabilities": true,
+      "uses_confidence_gate": false,
+      "uses_optimizer": false
+    },
+    {
+      "name": "benchmark_relative_tilt_confidence_gate",
+      "description": "Benchmark-relative tilt with a confidence gate that shrinks low-conviction signals back toward the fixed 60/40 base.",
+      "uses_probabilities": true,
+      "uses_confidence_gate": true,
+      "uses_optimizer": false
+    }
+  ],
+  "legacy_regime_allocations": {
+    "0": {
+      "SPY": 0.1,
+      "TLT": 0.35,
+      "IEF": 0.35,
+      "GLD": 0.2
+    },
+    "1": {
+      "SPY": 0.4,
+      "TLT": 0.2,
+      "IEF": 0.25,
+      "GLD": 0.15
+    },
+    "2": {
+      "SPY": 0.7,
+      "TLT": 0.05,
+      "IEF": 0.15,
+      "GLD": 0.1
+    }
+  },
+  "benchmark_relative_tilt_config": {
+    "base_allocation": {
+      "SPY": 0.6,
+      "TLT": 0.2,
+      "IEF": 0.2,
+      "GLD": 0.0
+    },
+    "risk_off_delta": {
+      "SPY": -0.15,
+      "TLT": 0.05,
+      "IEF": 0.0,
+      "GLD": 0.1
+    },
+    "risk_on_delta": {
+      "SPY": 0.15,
+      "TLT": -0.1,
+      "IEF": -0.05,
+      "GLD": 0.0
+    }
+  },
+  "benchmark_relative_templates": {
+    "0": {
+      "SPY": 0.45000000000582074,
+      "TLT": 0.2500000000058208,
+      "IEF": 0.20000000000582083,
+      "GLD": 0.10000000000582082
+    },
+    "1": {
+      "SPY": 0.5999999999941792,
+      "TLT": 0.19999999999417925,
+      "IEF": 0.19999999999417925,
+      "GLD": 0.0
+    },
+    "2": {
+      "SPY": 0.7500000000116415,
+      "TLT": 0.10000000001164151,
+      "IEF": 0.15000000001164152,
+      "GLD": 1.164150134316502e-11
+    }
+  },
+  "asset_bounds": {
+    "floors": {
+      "SPY": 0.2,
+      "TLT": 0.05,
+      "IEF": 0.05,
+      "GLD": 0.0
+    },
+    "caps": {
+      "SPY": 0.85,
+      "TLT": 0.45,
+      "IEF": 0.35,
+      "GLD": 0.2
+    }
+  },
+  "confidence_gate": {
+    "threshold": 0.7,
+    "scale": 0.3
+  },
+  "optimizer_config": null,
+  "optimizer_block_summaries": [],
+  "notes": "The primary variant is configured ex ante. The sweep metrics are reported for comparison only and should not be used to claim a full-sample optimized allocation."
+}

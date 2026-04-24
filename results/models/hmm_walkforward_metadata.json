@@ -275,7 +275,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -17399.005639135346,
+        "log_likelihood": -17399.00563913524,
         "converged": true,
         "iterations": 61,
         "states_observed": 3
@@ -289,7 +289,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 149.1620105584,
+          "effective_observations": 149.1620105583,
           "sample_share": 0.177997626,
           "mean_spy_ret_1d": -0.0007461796,
           "mean_qqq_ret_1d": -0.0008257868,
@@ -300,7 +300,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 333.5287163072,
+          "effective_observations": 333.5287163071,
           "sample_share": 0.3980056281,
           "mean_spy_ret_1d": 0.0004725392,
           "mean_qqq_ret_1d": 0.0006950169,
@@ -311,7 +311,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 355.3092731345,
+          "effective_observations": 355.3092731346,
           "sample_share": 0.423996746,
           "mean_spy_ret_1d": 0.001342533,
           "mean_qqq_ret_1d": 0.0014392758,
@@ -329,7 +329,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -17911.429222220773,
+        "log_likelihood": -17911.42922222106,
         "converged": true,
         "iterations": 38,
         "states_observed": 3
@@ -343,7 +343,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 143.4382282357,
+          "effective_observations": 143.4382282356,
           "sample_share": 0.1671774222,
           "mean_spy_ret_1d": -0.0004283471,
           "mean_qqq_ret_1d": -0.0005344761,
@@ -354,7 +354,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 255.9648526844,
+          "effective_observations": 255.9648526842,
           "sample_share": 0.2983273341,
           "mean_spy_ret_1d": 0.0001964173,
           "mean_qqq_ret_1d": 0.0005387292,
@@ -365,7 +365,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 458.5969190799,
+          "effective_observations": 458.5969190802,
           "sample_share": 0.5344952437,
           "mean_spy_ret_1d": 0.0011386756,
           "mean_qqq_ret_1d": 0.0011677759,
@@ -437,7 +437,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -18854.598477254713,
+        "log_likelihood": -18854.598477254964,
         "converged": true,
         "iterations": 75,
         "states_observed": 3
@@ -451,7 +451,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 148.4584928407,
+          "effective_observations": 148.4584928408,
           "sample_share": 0.1645881295,
           "mean_spy_ret_1d": -0.0006010243,
           "mean_qqq_ret_1d": -0.0006821969,
@@ -462,7 +462,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 357.5629783749,
+          "effective_observations": 357.5629783753,
           "sample_share": 0.3964112842,
           "mean_spy_ret_1d": 0.0004668741,
           "mean_qqq_ret_1d": 0.0007093531,
@@ -473,7 +473,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 395.9785287843,
+          "effective_observations": 395.9785287839,
           "sample_share": 0.4390005862,
           "mean_spy_ret_1d": 0.0011464968,
           "mean_qqq_ret_1d": 0.0012696316,
@@ -599,7 +599,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -20123.273853897776,
+        "log_likelihood": -20123.273853897397,
         "converged": true,
         "iterations": 35,
         "states_observed": 3
@@ -624,7 +624,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 361.975483243,
+          "effective_observations": 361.9754832431,
           "sample_share": 0.3751041277,
           "mean_spy_ret_1d": 0.0004786218,
           "mean_qqq_ret_1d": 0.0007011933,
@@ -635,7 +635,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 454.4325502526,
+          "effective_observations": 454.4325502525,
           "sample_share": 0.4709145598,
           "mean_spy_ret_1d": 0.0012242113,
           "mean_qqq_ret_1d": 0.0014005147,
@@ -869,7 +869,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -22325.39688469115,
+        "log_likelihood": -22325.39688469136,
         "converged": true,
         "iterations": 68,
         "states_observed": 3
@@ -883,7 +883,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 148.7310422512,
+          "effective_observations": 148.7310422511,
           "sample_share": 0.1392612755,
           "mean_spy_ret_1d": -0.0006171156,
           "mean_qqq_ret_1d": -0.0006972449,
@@ -894,7 +894,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 381.3399014593,
+          "effective_observations": 381.339901459,
           "sample_share": 0.3570598328,
           "mean_spy_ret_1d": 0.0004210776,
           "mean_qqq_ret_1d": 0.0006413749,
@@ -905,7 +905,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 537.9290562895,
+          "effective_observations": 537.9290562899,
           "sample_share": 0.5036788917,
           "mean_spy_ret_1d": 0.0011563126,
           "mean_qqq_ret_1d": 0.0012635804,
@@ -977,7 +977,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -23103.79248133685,
+        "log_likelihood": -23103.792481336768,
         "converged": true,
         "iterations": 30,
         "states_observed": 3
@@ -1002,7 +1002,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 407.5210244293,
+          "effective_observations": 407.5210244292,
           "sample_share": 0.367136058,
           "mean_spy_ret_1d": 0.0006041708,
           "mean_qqq_ret_1d": 0.0008199508,
@@ -1013,7 +1013,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 552.7387042318,
+          "effective_observations": 552.7387042319,
           "sample_share": 0.4979627966,
           "mean_spy_ret_1d": 0.0010720644,
           "mean_qqq_ret_1d": 0.0012258292,
@@ -1031,7 +1031,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -23535.603584168086,
+        "log_likelihood": -23535.603584167322,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -1045,7 +1045,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 149.9146920045,
+          "effective_observations": 149.9146920047,
           "sample_share": 0.1324334735,
           "mean_spy_ret_1d": -0.0007171649,
           "mean_qqq_ret_1d": -0.0007943904,
@@ -1056,7 +1056,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 413.5853143315,
+          "effective_observations": 413.5853143325,
           "sample_share": 0.3653580515,
           "mean_spy_ret_1d": 0.0006180583,
           "mean_qqq_ret_1d": 0.0008250301,
@@ -1067,7 +1067,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 568.4999936639,
+          "effective_observations": 568.4999936628,
           "sample_share": 0.502208475,
           "mean_spy_ret_1d": 0.0010086208,
           "mean_qqq_ret_1d": 0.001207151,
@@ -1085,7 +1085,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -23933.50740438184,
+        "log_likelihood": -23933.507404381915,
         "converged": true,
         "iterations": 33,
         "states_observed": 3
@@ -1099,7 +1099,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 149.9854323298,
+          "effective_observations": 149.9854323297,
           "sample_share": 0.1300827687,
           "mean_spy_ret_1d": -0.0007344967,
           "mean_qqq_ret_1d": -0.0008117559,
@@ -1110,7 +1110,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 414.6953469575,
+          "effective_observations": 414.6953469574,
           "sample_share": 0.3596663894,
           "mean_spy_ret_1d": 0.0006319848,
           "mean_qqq_ret_1d": 0.0008329757,
@@ -1121,7 +1121,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 588.3192207127,
+          "effective_observations": 588.3192207129,
           "sample_share": 0.5102508419,
           "mean_spy_ret_1d": 0.0010344175,
           "mean_qqq_ret_1d": 0.0012473625,
@@ -1139,7 +1139,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -24310.657374088998,
+        "log_likelihood": -24310.657374088976,
         "converged": true,
         "iterations": 45,
         "states_observed": 3
@@ -1164,7 +1164,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 474.9777502527,
+          "effective_observations": 474.977750254,
           "sample_share": 0.4045807072,
           "mean_spy_ret_1d": 0.0006636161,
           "mean_qqq_ret_1d": 0.0008514116,
@@ -1175,7 +1175,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 549.7665906649,
+          "effective_observations": 549.7665906636,
           "sample_share": 0.4682850006,
           "mean_spy_ret_1d": 0.0009545757,
           "mean_qqq_ret_1d": 0.0011915371,
@@ -1301,7 +1301,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -25879.464567100193,
+        "log_likelihood": -25879.464567100233,
         "converged": true,
         "iterations": 21,
         "states_observed": 3
@@ -1315,7 +1315,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 147.6519969672,
+          "effective_observations": 147.6519969671,
           "sample_share": 0.1192665565,
           "mean_spy_ret_1d": -0.0004474565,
           "mean_qqq_ret_1d": -0.0005528423,
@@ -1326,7 +1326,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 515.2101237327,
+          "effective_observations": 515.2101237323,
           "sample_share": 0.4161632663,
           "mean_spy_ret_1d": 0.0005868041,
           "mean_qqq_ret_1d": 0.0007167018,
@@ -1337,7 +1337,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 575.1378793002,
+          "effective_observations": 575.1378793006,
           "sample_share": 0.4645701771,
           "mean_spy_ret_1d": 0.0009754717,
           "mean_qqq_ret_1d": 0.0012414583,
@@ -1463,7 +1463,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -27267.141135381284,
+        "log_likelihood": -27267.14113538021,
         "converged": true,
         "iterations": 37,
         "states_observed": 3
@@ -1477,7 +1477,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 150.1927752967,
+          "effective_observations": 150.1927752968,
           "sample_share": 0.115621844,
           "mean_spy_ret_1d": -0.0007873295,
           "mean_qqq_ret_1d": -0.0008606474,
@@ -1488,7 +1488,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 582.6009245246,
+          "effective_observations": 582.6009245248,
           "sample_share": 0.448499557,
           "mean_spy_ret_1d": 0.0006312408,
           "mean_qqq_ret_1d": 0.0007589184,
@@ -1499,7 +1499,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 566.2063001787,
+          "effective_observations": 566.2063001784,
           "sample_share": 0.4358785991,
           "mean_spy_ret_1d": 0.0009870534,
           "mean_qqq_ret_1d": 0.001265025,
@@ -1517,7 +1517,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -27763.084133571523,
+        "log_likelihood": -27763.08413357157,
         "converged": true,
         "iterations": 41,
         "states_observed": 3
@@ -1531,7 +1531,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 151.2928468536,
+          "effective_observations": 151.2928468535,
           "sample_share": 0.1146157931,
           "mean_spy_ret_1d": -0.0008775996,
           "mean_qqq_ret_1d": -0.0009505076,
@@ -1542,7 +1542,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 609.4337984193,
+          "effective_observations": 609.4337984189,
           "sample_share": 0.4616922715,
           "mean_spy_ret_1d": 0.0006632553,
           "mean_qqq_ret_1d": 0.0007983946,
@@ -1553,7 +1553,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 559.273354727,
+          "effective_observations": 559.2733547276,
           "sample_share": 0.4236919354,
           "mean_spy_ret_1d": 0.0009781034,
           "mean_qqq_ret_1d": 0.0012624739,
@@ -1733,7 +1733,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -29652.947487747133,
+        "log_likelihood": -29652.947487746944,
         "converged": true,
         "iterations": 106,
         "states_observed": 3
@@ -1747,7 +1747,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 168.5980924261,
+          "effective_observations": 168.598092426,
           "sample_share": 0.1199986423,
           "mean_spy_ret_1d": -0.0009772334,
           "mean_qqq_ret_1d": -0.0010076017,
@@ -1758,7 +1758,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 557.9730944463,
+          "effective_observations": 557.9730944465,
           "sample_share": 0.3971338751,
           "mean_spy_ret_1d": 0.0007417228,
           "mean_qqq_ret_1d": 0.0009363041,
@@ -1769,7 +1769,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 678.4288131277,
+          "effective_observations": 678.4288131275,
           "sample_share": 0.4828674827,
           "mean_spy_ret_1d": 0.00077466,
           "mean_qqq_ret_1d": 0.0009930886,
@@ -1787,7 +1787,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -30123.196768506117,
+        "log_likelihood": -30123.196768506255,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -1801,7 +1801,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 189.2875876358,
+          "effective_observations": 189.2875876359,
           "sample_share": 0.1327402438,
           "mean_spy_ret_1d": -0.0010061863,
           "mean_qqq_ret_1d": -0.0009800692,
@@ -1812,7 +1812,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 558.5946159425,
+          "effective_observations": 558.5946159426,
           "sample_share": 0.3917213296,
           "mean_spy_ret_1d": 0.0007461585,
           "mean_qqq_ret_1d": 0.0009302072,
@@ -1823,7 +1823,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 678.1177964217,
+          "effective_observations": 678.1177964215,
           "sample_share": 0.4755384267,
           "mean_spy_ret_1d": 0.0007734597,
           "mean_qqq_ret_1d": 0.0009915959,
@@ -2057,7 +2057,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -32464.918527872913,
+        "log_likelihood": -32464.918527873033,
         "converged": true,
         "iterations": 56,
         "states_observed": 3
@@ -2071,7 +2071,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 226.4452482089,
+          "effective_observations": 226.4452482087,
           "sample_share": 0.1481002277,
           "mean_spy_ret_1d": -0.000993768,
           "mean_qqq_ret_1d": -0.001099046,
@@ -2082,7 +2082,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 697.2849554757,
+          "effective_observations": 697.284955476,
           "sample_share": 0.4560398662,
           "mean_spy_ret_1d": 0.0007469855,
           "mean_qqq_ret_1d": 0.0009638523,
@@ -2093,7 +2093,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 605.2697963155,
+          "effective_observations": 605.2697963153,
           "sample_share": 0.395859906,
           "mean_spy_ret_1d": 0.0007883764,
           "mean_qqq_ret_1d": 0.0009956637,
@@ -2111,7 +2111,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -32986.5593650074,
+        "log_likelihood": -32986.559365008754,
         "converged": true,
         "iterations": 43,
         "states_observed": 3
@@ -2125,7 +2125,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 228.1645383761,
+          "effective_observations": 228.1645383764,
           "sample_share": 0.1471080196,
           "mean_spy_ret_1d": -0.0008763019,
           "mean_qqq_ret_1d": -0.0009548688,
@@ -2136,7 +2136,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 698.4419493829,
+          "effective_observations": 698.4419493823,
           "sample_share": 0.4503171821,
           "mean_spy_ret_1d": 0.0007418564,
           "mean_qqq_ret_1d": 0.0009586479,
@@ -2147,7 +2147,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 624.393512241,
+          "effective_observations": 624.3935122413,
           "sample_share": 0.4025747984,
           "mean_spy_ret_1d": 0.0008336526,
           "mean_qqq_ret_1d": 0.0010272388,
@@ -2165,7 +2165,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -33476.725373669695,
+        "log_likelihood": -33476.7253736697,
         "converged": true,
         "iterations": 65,
         "states_observed": 3
@@ -2219,7 +2219,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -33910.87634754926,
+        "log_likelihood": -33910.87634754897,
         "converged": true,
         "iterations": 33,
         "states_observed": 3
@@ -2233,7 +2233,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 227.9818022901,
+          "effective_observations": 227.9818022902,
           "sample_share": 0.1431147535,
           "mean_spy_ret_1d": -0.000864912,
           "mean_qqq_ret_1d": -0.0009499398,
@@ -2244,7 +2244,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 764.4343889396,
+          "effective_observations": 764.4343889394,
           "sample_share": 0.4798709284,
           "mean_spy_ret_1d": 0.000711372,
           "mean_qqq_ret_1d": 0.000917265,
@@ -2255,7 +2255,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 600.5838087702,
+          "effective_observations": 600.5838087704,
           "sample_share": 0.3770143181,
           "mean_spy_ret_1d": 0.0008555383,
           "mean_qqq_ret_1d": 0.0010329491,
@@ -2327,7 +2327,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -34908.36023264744,
+        "log_likelihood": -34908.36023264689,
         "converged": true,
         "iterations": 32,
         "states_observed": 3
@@ -2341,7 +2341,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 227.3655190279,
+          "effective_observations": 227.3655190278,
           "sample_share": 0.1390614795,
           "mean_spy_ret_1d": -0.0011455461,
           "mean_qqq_ret_1d": -0.0012604763,
@@ -2352,7 +2352,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 788.1188439028,
+          "effective_observations": 788.118843903,
           "sample_share": 0.4820298739,
           "mean_spy_ret_1d": 0.0006986716,
           "mean_qqq_ret_1d": 0.0008827763,
@@ -2363,7 +2363,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 619.5156370693,
+          "effective_observations": 619.5156370692,
           "sample_share": 0.3789086465,
           "mean_spy_ret_1d": 0.0009866413,
           "mean_qqq_ret_1d": 0.0012011292,
@@ -2435,7 +2435,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -35931.99238845872,
+        "log_likelihood": -35931.99238845795,
         "converged": true,
         "iterations": 33,
         "states_observed": 3
@@ -2449,7 +2449,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 226.7991522459,
+          "effective_observations": 226.799152246,
           "sample_share": 0.1350799001,
           "mean_spy_ret_1d": -0.001141866,
           "mean_qqq_ret_1d": -0.0012581215,
@@ -2460,7 +2460,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 839.805604378,
+          "effective_observations": 839.8056043775,
           "sample_share": 0.5001820157,
           "mean_spy_ret_1d": 0.0006487122,
           "mean_qqq_ret_1d": 0.0008588419,
@@ -2471,7 +2471,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 612.3952433761,
+          "effective_observations": 612.3952433764,
           "sample_share": 0.3647380842,
           "mean_spy_ret_1d": 0.001008809,
           "mean_qqq_ret_1d": 0.0012260104,
@@ -2651,7 +2651,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -37777.078718112,
+        "log_likelihood": -37777.07871811251,
         "converged": true,
         "iterations": 29,
         "states_observed": 3
@@ -2665,7 +2665,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 226.4659555976,
+          "effective_observations": 226.4659555975,
           "sample_share": 0.1285277841,
           "mean_spy_ret_1d": -0.0011419135,
           "mean_qqq_ret_1d": -0.0012581406,
@@ -2676,7 +2676,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 912.244020094,
+          "effective_observations": 912.2440200951,
           "sample_share": 0.517732134,
           "mean_spy_ret_1d": 0.0006294656,
           "mean_qqq_ret_1d": 0.0008773495,
@@ -2687,7 +2687,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 623.2900243084,
+          "effective_observations": 623.2900243073,
           "sample_share": 0.3537400819,
           "mean_spy_ret_1d": 0.0010357482,
           "mean_qqq_ret_1d": 0.0011621153,
@@ -2813,7 +2813,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -38898.80813293768,
+        "log_likelihood": -38898.80813293754,
         "converged": true,
         "iterations": 37,
         "states_observed": 3
@@ -2827,18 +2827,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 236.1182814506,
+          "effective_observations": 236.1182814497,
           "sample_share": 0.129521822,
           "mean_spy_ret_1d": -0.001141814,
           "mean_qqq_ret_1d": -0.0012489775,
           "mean_tlt_ret_1d": 0.0018055053,
-          "mean_vix_close": 29.2432144662,
+          "mean_vix_close": 29.2432144663,
           "mean_yield_curve_slope_pct": 1.8223400029
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 733.6519047173,
+          "effective_observations": 733.651904722,
           "sample_share": 0.4024420761,
           "mean_spy_ret_1d": 0.0007899471,
           "mean_qqq_ret_1d": 0.0009827211,
@@ -2849,7 +2849,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 853.229813832,
+          "effective_observations": 853.2298138283,
           "sample_share": 0.4680361019,
           "mean_spy_ret_1d": 0.0008222168,
           "mean_qqq_ret_1d": 0.0010596519,
@@ -2867,7 +2867,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -39328.70123042603,
+        "log_likelihood": -39328.70123042611,
         "converged": true,
         "iterations": 31,
         "states_observed": 3
@@ -2881,7 +2881,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 236.8033595089,
+          "effective_observations": 236.8033595086,
           "sample_share": 0.1283487043,
           "mean_spy_ret_1d": -0.0011289338,
           "mean_qqq_ret_1d": -0.0012338266,
@@ -2892,7 +2892,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 860.9728748744,
+          "effective_observations": 860.9728748732,
           "sample_share": 0.4666519647,
           "mean_spy_ret_1d": 0.0007880907,
           "mean_qqq_ret_1d": 0.0010163419,
@@ -2903,7 +2903,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 747.2237656167,
+          "effective_observations": 747.2237656183,
           "sample_share": 0.404999331,
           "mean_spy_ret_1d": 0.0008224571,
           "mean_qqq_ret_1d": 0.0010520243,
@@ -3191,7 +3191,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -41824.594243275715,
+        "log_likelihood": -41824.59424327485,
         "converged": true,
         "iterations": 27,
         "states_observed": 3
@@ -3205,7 +3205,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 256.4438339212,
+          "effective_observations": 256.4438339216,
           "sample_share": 0.1299766011,
           "mean_spy_ret_1d": -0.0008806747,
           "mean_qqq_ret_1d": -0.0009643923,
@@ -3216,7 +3216,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 891.7547801364,
+          "effective_observations": 891.7547801343,
           "sample_share": 0.451979108,
           "mean_spy_ret_1d": 0.0007468117,
           "mean_qqq_ret_1d": 0.0009619062,
@@ -3227,7 +3227,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 824.8013859424,
+          "effective_observations": 824.8013859441,
           "sample_share": 0.4180442909,
           "mean_spy_ret_1d": 0.0008362596,
           "mean_qqq_ret_1d": 0.0010435462,
@@ -3245,7 +3245,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -42170.127970664755,
+        "log_likelihood": -42170.127970662346,
         "converged": true,
         "iterations": 74,
         "states_observed": 3
@@ -3270,7 +3270,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 915.2675669619,
+          "effective_observations": 915.267566961,
           "sample_share": 0.4592411274,
           "mean_spy_ret_1d": 0.0007101819,
           "mean_qqq_ret_1d": 0.0009096109,
@@ -3281,7 +3281,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 819.3593449639,
+          "effective_observations": 819.3593449648,
           "sample_share": 0.4111185875,
           "mean_spy_ret_1d": 0.0008633572,
           "mean_qqq_ret_1d": 0.0010755108,
@@ -3299,7 +3299,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -42539.41677502247,
+        "log_likelihood": -42539.41677502077,
         "converged": true,
         "iterations": 29,
         "states_observed": 3
@@ -3324,7 +3324,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 931.6534847575,
+          "effective_observations": 931.653484762,
           "sample_share": 0.462588622,
           "mean_spy_ret_1d": 0.000694993,
           "mean_qqq_ret_1d": 0.000891348,
@@ -3335,7 +3335,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 822.3019060607,
+          "effective_observations": 822.3019060562,
           "sample_share": 0.4082929027,
           "mean_spy_ret_1d": 0.0009234082,
           "mean_qqq_ret_1d": 0.00116951,
@@ -3407,7 +3407,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -43543.0977799286,
+        "log_likelihood": -43543.097779930045,
         "converged": true,
         "iterations": 38,
         "states_observed": 3
@@ -3432,7 +3432,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 932.5259748187,
+          "effective_observations": 932.525974816,
           "sample_share": 0.4540048563,
           "mean_spy_ret_1d": 0.0006552783,
           "mean_qqq_ret_1d": 0.0008568506,
@@ -3443,7 +3443,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 824.5685875068,
+          "effective_observations": 824.5685875094,
           "sample_share": 0.4014452714,
           "mean_spy_ret_1d": 0.0009100753,
           "mean_qqq_ret_1d": 0.0011427058,
@@ -3569,7 +3569,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -45077.10563137046,
+        "log_likelihood": -45077.10563136979,
         "converged": true,
         "iterations": 59,
         "states_observed": 3
@@ -3583,7 +3583,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 325.5186273477,
+          "effective_observations": 325.518627346,
           "sample_share": 0.1536915143,
           "mean_spy_ret_1d": -0.0005806411,
           "mean_qqq_ret_1d": -0.0006324102,
@@ -3594,7 +3594,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 932.4734574125,
+          "effective_observations": 932.4734574079,
           "sample_share": 0.4402613113,
           "mean_spy_ret_1d": 0.0005983665,
           "mean_qqq_ret_1d": 0.0008149513,
@@ -3605,12 +3605,12 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 860.0079152398,
+          "effective_observations": 860.007915246,
           "sample_share": 0.4060471743,
           "mean_spy_ret_1d": 0.0009357298,
           "mean_qqq_ret_1d": 0.001203399,
           "mean_tlt_ret_1d": 0.0001415069,
-          "mean_vix_close": 13.0604421634,
+          "mean_vix_close": 13.0604421635,
           "mean_yield_curve_slope_pct": 1.4265311733
         }
       ]
@@ -3623,7 +3623,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -45501.50931885378,
+        "log_likelihood": -45501.50931885183,
         "converged": true,
         "iterations": 44,
         "states_observed": 3
@@ -3637,7 +3637,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 347.1103363287,
+          "effective_observations": 347.110336329,
           "sample_share": 0.1622769221,
           "mean_spy_ret_1d": -0.0005851452,
           "mean_qqq_ret_1d": -0.0006621052,
@@ -3648,7 +3648,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 927.365520349,
+          "effective_observations": 927.3655203451,
           "sample_share": 0.4335509679,
           "mean_spy_ret_1d": 0.0006516029,
           "mean_qqq_ret_1d": 0.0008982213,
@@ -3659,7 +3659,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 864.5241433223,
+          "effective_observations": 864.5241433259,
           "sample_share": 0.40417211,
           "mean_spy_ret_1d": 0.0009360202,
           "mean_qqq_ret_1d": 0.0011733459,
@@ -3731,7 +3731,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -46245.576950854644,
+        "log_likelihood": -46245.5769508555,
         "converged": true,
         "iterations": 60,
         "states_observed": 3
@@ -3745,7 +3745,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 355.4200111293,
+          "effective_observations": 355.420011128,
           "sample_share": 0.1629619492,
           "mean_spy_ret_1d": -0.0005531346,
           "mean_qqq_ret_1d": -0.0006293639,
@@ -3756,7 +3756,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 958.3687841654,
+          "effective_observations": 958.3687841743,
           "sample_share": 0.4394171408,
           "mean_spy_ret_1d": 0.000669254,
           "mean_qqq_ret_1d": 0.0009436055,
@@ -3767,7 +3767,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 867.2112047054,
+          "effective_observations": 867.2112046977,
           "sample_share": 0.39762091,
           "mean_spy_ret_1d": 0.0009262723,
           "mean_qqq_ret_1d": 0.0011429985,
@@ -3785,7 +3785,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -46784.968280574125,
+        "log_likelihood": -46784.96828057206,
         "converged": true,
         "iterations": 49,
         "states_observed": 3
@@ -3799,7 +3799,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 391.7758904054,
+          "effective_observations": 391.7758904058,
           "sample_share": 0.1777567561,
           "mean_spy_ret_1d": -0.0005903546,
           "mean_qqq_ret_1d": -0.0006235795,
@@ -3810,18 +3810,18 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 949.7378604813,
+          "effective_observations": 949.7378604793,
           "sample_share": 0.4309155447,
           "mean_spy_ret_1d": 0.0006589417,
           "mean_qqq_ret_1d": 0.0009327794,
           "mean_tlt_ret_1d": -1.17116e-05,
           "mean_vix_close": 16.7117034773,
-          "mean_yield_curve_slope_pct": 1.8642395568
+          "mean_yield_curve_slope_pct": 1.8642395569
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 862.4862491133,
+          "effective_observations": 862.4862491149,
           "sample_share": 0.3913276992,
           "mean_spy_ret_1d": 0.0009092087,
           "mean_qqq_ret_1d": 0.0010962898,
@@ -3839,7 +3839,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -47312.2660921886,
+        "log_likelihood": -47312.266092186605,
         "converged": true,
         "iterations": 54,
         "states_observed": 3
@@ -3853,18 +3853,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 418.9485943429,
+          "effective_observations": 418.9485943437,
           "sample_share": 0.1882915031,
           "mean_spy_ret_1d": -0.0004702769,
           "mean_qqq_ret_1d": -0.0005234897,
           "mean_tlt_ret_1d": 0.0011584606,
-          "mean_vix_close": 25.6157793376,
+          "mean_vix_close": 25.6157793375,
           "mean_yield_curve_slope_pct": 1.516440417
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 944.3091893227,
+          "effective_observations": 944.3091893246,
           "sample_share": 0.4244086244,
           "mean_spy_ret_1d": 0.0006478248,
           "mean_qqq_ret_1d": 0.0009125044,
@@ -3875,7 +3875,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 861.7422163344,
+          "effective_observations": 861.7422163317,
           "sample_share": 0.3872998725,
           "mean_spy_ret_1d": 0.0009095252,
           "mean_qqq_ret_1d": 0.0010968559,
@@ -3893,7 +3893,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -47655.7157119319,
+        "log_likelihood": -47655.71571193018,
         "converged": true,
         "iterations": 60,
         "states_observed": 3
@@ -3907,18 +3907,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 430.6355664698,
+          "effective_observations": 430.6355664673,
           "sample_share": 0.1919053327,
           "mean_spy_ret_1d": -0.0006694355,
           "mean_qqq_ret_1d": -0.0007151368,
           "mean_tlt_ret_1d": 0.0012576627,
-          "mean_vix_close": 25.66401091,
+          "mean_vix_close": 25.6640109101,
           "mean_yield_curve_slope_pct": 1.4514823126
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 945.3215671219,
+          "effective_observations": 945.3215671347,
           "sample_share": 0.4212662955,
           "mean_spy_ret_1d": 0.0006493119,
           "mean_qqq_ret_1d": 0.0009137134,
@@ -3929,12 +3929,12 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 868.0428664083,
+          "effective_observations": 868.042866398,
           "sample_share": 0.3868283718,
           "mean_spy_ret_1d": 0.0009034202,
           "mean_qqq_ret_1d": 0.0010903815,
           "mean_tlt_ret_1d": 0.0001297346,
-          "mean_vix_close": 12.9528039839,
+          "mean_vix_close": 12.9528039838,
           "mean_yield_curve_slope_pct": 1.3101114839
         }
       ]
@@ -3947,7 +3947,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -48133.05121486311,
+        "log_likelihood": -48133.051214863284,
         "converged": true,
         "iterations": 67,
         "states_observed": 3
@@ -3961,7 +3961,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 452.8997861668,
+          "effective_observations": 452.8997861665,
           "sample_share": 0.1999557555,
           "mean_spy_ret_1d": -0.0004120934,
           "mean_qqq_ret_1d": -0.0004226347,
@@ -3972,7 +3972,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 943.1510277681,
+          "effective_observations": 943.151027771,
           "sample_share": 0.4164022198,
           "mean_spy_ret_1d": 0.0006246019,
           "mean_qqq_ret_1d": 0.0008842778,
@@ -3983,7 +3983,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 868.9491860651,
+          "effective_observations": 868.9491860625,
           "sample_share": 0.3836420248,
           "mean_spy_ret_1d": 0.0009042577,
           "mean_qqq_ret_1d": 0.0010918014,
@@ -4001,7 +4001,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -48533.73663094122,
+        "log_likelihood": -48533.73663094278,
         "converged": true,
         "iterations": 97,
         "states_observed": 3
@@ -4015,18 +4015,18 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 454.1302847151,
+          "effective_observations": 454.130284711,
           "sample_share": 0.1988311229,
           "mean_spy_ret_1d": -0.0004010667,
           "mean_qqq_ret_1d": -0.0004156831,
           "mean_tlt_ret_1d": 0.0011683293,
-          "mean_vix_close": 25.3136918308,
+          "mean_vix_close": 25.3136918309,
           "mean_yield_curve_slope_pct": 1.3866003383
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 934.9303455696,
+          "effective_observations": 934.9303455811,
           "sample_share": 0.4093390305,
           "mean_spy_ret_1d": 0.0006237633,
           "mean_qqq_ret_1d": 0.000884134,
@@ -4037,7 +4037,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 894.9393697153,
+          "effective_observations": 894.9393697079,
           "sample_share": 0.3918298466,
           "mean_spy_ret_1d": 0.0009155209,
           "mean_qqq_ret_1d": 0.0010987855,
@@ -4055,7 +4055,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -48922.56488468648,
+        "log_likelihood": -48922.5648846887,
         "converged": true,
         "iterations": 50,
         "states_observed": 3
@@ -4069,7 +4069,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 458.387729561,
+          "effective_observations": 458.3877295604,
           "sample_share": 0.198866694,
           "mean_spy_ret_1d": -0.0004075801,
           "mean_qqq_ret_1d": -0.0004220307,
@@ -4080,7 +4080,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 948.4265695497,
+          "effective_observations": 948.4265695479,
           "sample_share": 0.4114648892,
           "mean_spy_ret_1d": 0.0006090367,
           "mean_qqq_ret_1d": 0.00086029,
@@ -4091,7 +4091,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 898.1857008893,
+          "effective_observations": 898.1857008917,
           "sample_share": 0.3896684169,
           "mean_spy_ret_1d": 0.0009442087,
           "mean_qqq_ret_1d": 0.001155738,
@@ -4109,7 +4109,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -49279.579501707885,
+        "log_likelihood": -49279.579501710454,
         "converged": true,
         "iterations": 35,
         "states_observed": 3
@@ -4123,7 +4123,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 460.2978407008,
+          "effective_observations": 460.2978406991,
           "sample_share": 0.1978924509,
           "mean_spy_ret_1d": -0.0003960289,
           "mean_qqq_ret_1d": -0.0004083153,
@@ -4134,7 +4134,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 955.6605632365,
+          "effective_observations": 955.6605632427,
           "sample_share": 0.4108600874,
           "mean_spy_ret_1d": 0.0005920081,
           "mean_qqq_ret_1d": 0.0008327148,
@@ -4145,7 +4145,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 910.0415960626,
+          "effective_observations": 910.0415960582,
           "sample_share": 0.3912474618,
           "mean_spy_ret_1d": 0.0009841671,
           "mean_qqq_ret_1d": 0.0012159071,
@@ -4163,7 +4163,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -49834.67220074509,
+        "log_likelihood": -49834.67220074549,
         "converged": true,
         "iterations": 69,
         "states_observed": 3
@@ -4177,7 +4177,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 513.7595080007,
+          "effective_observations": 513.7595079975,
           "sample_share": 0.2188072862,
           "mean_spy_ret_1d": -0.0004113267,
           "mean_qqq_ret_1d": -0.0004197166,
@@ -4188,7 +4188,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 968.2880726484,
+          "effective_observations": 968.2880726644,
           "sample_share": 0.4123884466,
           "mean_spy_ret_1d": 0.0006609995,
           "mean_qqq_ret_1d": 0.00090406,
@@ -4199,12 +4199,12 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 865.9524193509,
+          "effective_observations": 865.9524193381,
           "sample_share": 0.3688042672,
           "mean_spy_ret_1d": 0.0009070764,
           "mean_qqq_ret_1d": 0.0011207728,
           "mean_tlt_ret_1d": 0.0002036883,
-          "mean_vix_close": 12.9731614194,
+          "mean_vix_close": 12.9731614193,
           "mean_yield_curve_slope_pct": 1.1506136099
         }
       ]
@@ -4217,7 +4217,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -50340.75736485346,
+        "log_likelihood": -50340.75736485171,
         "converged": true,
         "iterations": 60,
         "states_observed": 3
@@ -4231,18 +4231,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 519.3493575581,
-          "sample_share": 0.21931983,
+          "effective_observations": 519.3493575602,
+          "sample_share": 0.2193198301,
           "mean_spy_ret_1d": -0.0003007919,
           "mean_qqq_ret_1d": -0.0003002105,
           "mean_tlt_ret_1d": 0.0012640107,
-          "mean_vix_close": 24.6574605679,
+          "mean_vix_close": 24.6574605678,
           "mean_yield_curve_slope_pct": 1.4021708018
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 956.3655219402,
+          "effective_observations": 956.3655219338,
           "sample_share": 0.4038705751,
           "mean_spy_ret_1d": 0.0006590076,
           "mean_qqq_ret_1d": 0.0009103949,
@@ -4253,7 +4253,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 892.2851205017,
+          "effective_observations": 892.285120506,
           "sample_share": 0.3768095948,
           "mean_spy_ret_1d": 0.0009055106,
           "mean_qqq_ret_1d": 0.0011095402,
@@ -4271,7 +4271,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -50786.95534812361,
+        "log_likelihood": -50786.95534812424,
         "converged": true,
         "iterations": 54,
         "states_observed": 3
@@ -4285,18 +4285,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 518.8291431514,
+          "effective_observations": 518.8291431464,
           "sample_share": 0.2170833235,
           "mean_spy_ret_1d": -0.0003105086,
           "mean_qqq_ret_1d": -0.0003121349,
           "mean_tlt_ret_1d": 0.001267276,
-          "mean_vix_close": 24.6612946284,
+          "mean_vix_close": 24.6612946285,
           "mean_yield_curve_slope_pct": 1.4004809677
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 948.7890256094,
+          "effective_observations": 948.7890256223,
           "sample_share": 0.3969828559,
           "mean_spy_ret_1d": 0.0006646028,
           "mean_qqq_ret_1d": 0.0009179999,
@@ -4307,7 +4307,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 922.3818312392,
+          "effective_observations": 922.3818312314,
           "sample_share": 0.3859338206,
           "mean_spy_ret_1d": 0.0008975185,
           "mean_qqq_ret_1d": 0.0011051771,
@@ -4325,7 +4325,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -51330.811374540746,
+        "log_likelihood": -51330.81137453866,
         "converged": true,
         "iterations": 49,
         "states_observed": 3
@@ -4339,7 +4339,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 546.7709153848,
+          "effective_observations": 546.7709153795,
           "sample_share": 0.2266877759,
           "mean_spy_ret_1d": -0.0003357322,
           "mean_qqq_ret_1d": -0.0003470069,
@@ -4350,7 +4350,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 944.7175150602,
+          "effective_observations": 944.7175150768,
           "sample_share": 0.3916739283,
           "mean_spy_ret_1d": 0.0006742713,
           "mean_qqq_ret_1d": 0.000931749,
@@ -4361,7 +4361,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 920.511569555,
+          "effective_observations": 920.5115695437,
           "sample_share": 0.3816382958,
           "mean_spy_ret_1d": 0.0009008516,
           "mean_qqq_ret_1d": 0.0011099735,
@@ -4379,7 +4379,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -51859.17774412801,
+        "log_likelihood": -51859.17774412744,
         "converged": true,
         "iterations": 50,
         "states_observed": 3
@@ -4393,18 +4393,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 556.6356534286,
+          "effective_observations": 556.6356534224,
           "sample_share": 0.2288797917,
           "mean_spy_ret_1d": -0.0002479511,
           "mean_qqq_ret_1d": -0.0002525383,
           "mean_tlt_ret_1d": 0.0013035538,
-          "mean_vix_close": 24.2320857901,
+          "mean_vix_close": 24.2320857902,
           "mean_yield_curve_slope_pct": 1.3315719805
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 959.78176772,
+          "effective_observations": 959.7817677354,
           "sample_share": 0.3946471084,
           "mean_spy_ret_1d": 0.0006276977,
           "mean_qqq_ret_1d": 0.0008674027,
@@ -4415,7 +4415,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 915.5825788514,
+          "effective_observations": 915.5825788422,
           "sample_share": 0.3764730999,
           "mean_spy_ret_1d": 0.0009150435,
           "mean_qqq_ret_1d": 0.0011251672,
@@ -4433,7 +4433,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -52417.10691888441,
+        "log_likelihood": -52417.10691888728,
         "converged": true,
         "iterations": 64,
         "states_observed": 3
@@ -4447,7 +4447,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 552.5958659583,
+          "effective_observations": 552.595865958,
           "sample_share": 0.2250899658,
           "mean_spy_ret_1d": -0.0002260938,
           "mean_qqq_ret_1d": -0.0002214972,
@@ -4458,7 +4458,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 978.6045630336,
+          "effective_observations": 978.6045630294,
           "sample_share": 0.39861693,
           "mean_spy_ret_1d": 0.0005929634,
           "mean_qqq_ret_1d": 0.0008338539,
@@ -4469,7 +4469,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 923.799571008,
+          "effective_observations": 923.7995710126,
           "sample_share": 0.3762931043,
           "mean_spy_ret_1d": 0.0009412151,
           "mean_qqq_ret_1d": 0.001160842,
@@ -4487,7 +4487,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -52853.622894846245,
+        "log_likelihood": -52853.62289484716,
         "converged": true,
         "iterations": 47,
         "states_observed": 3
@@ -4501,7 +4501,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 502.255194733,
+          "effective_observations": 502.2551947372,
           "sample_share": 0.2029313918,
           "mean_spy_ret_1d": -0.0002999963,
           "mean_qqq_ret_1d": -0.0003300384,
@@ -4512,8 +4512,8 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 950.8556506019,
-          "sample_share": 0.3841841013,
+          "effective_observations": 950.8556505936,
+          "sample_share": 0.3841841012,
           "mean_spy_ret_1d": 0.0005296185,
           "mean_qqq_ret_1d": 0.0007756235,
           "mean_tlt_ret_1d": 3.64675e-05,
@@ -4523,12 +4523,12 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1021.889154665,
+          "effective_observations": 1021.8891546692,
           "sample_share": 0.4128845069,
           "mean_spy_ret_1d": 0.000986043,
           "mean_qqq_ret_1d": 0.0012079418,
           "mean_tlt_ret_1d": 0.0001482545,
-          "mean_vix_close": 13.1282859796,
+          "mean_vix_close": 13.1282859797,
           "mean_yield_curve_slope_pct": 1.1620987981
         }
       ]
@@ -4595,7 +4595,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -53735.10621767861,
+        "log_likelihood": -53735.10621767831,
         "converged": true,
         "iterations": 63,
         "states_observed": 3
@@ -4609,7 +4609,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 499.2555999218,
+          "effective_observations": 499.2555999278,
           "sample_share": 0.1983534366,
           "mean_spy_ret_1d": -0.000221603,
           "mean_qqq_ret_1d": -0.0002430436,
@@ -4620,7 +4620,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 974.0056607076,
+          "effective_observations": 974.005660688,
           "sample_share": 0.3869708624,
           "mean_spy_ret_1d": 0.0004284236,
           "mean_qqq_ret_1d": 0.0006598349,
@@ -4631,7 +4631,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1043.7387393706,
+          "effective_observations": 1043.7387393841,
           "sample_share": 0.414675701,
           "mean_spy_ret_1d": 0.0010375804,
           "mean_qqq_ret_1d": 0.0012973659,
@@ -4649,7 +4649,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -54064.49995045951,
+        "log_likelihood": -54064.499950460435,
         "converged": true,
         "iterations": 48,
         "states_observed": 3
@@ -4663,7 +4663,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 492.4892721945,
+          "effective_observations": 492.4892721923,
           "sample_share": 0.1941992398,
           "mean_spy_ret_1d": -0.0004954959,
           "mean_qqq_ret_1d": -0.0005181961,
@@ -4674,7 +4674,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 977.6727336292,
+          "effective_observations": 977.672733632,
           "sample_share": 0.3855176394,
           "mean_spy_ret_1d": 0.0004526201,
           "mean_qqq_ret_1d": 0.000682009,
@@ -4685,7 +4685,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1065.8379941764,
+          "effective_observations": 1065.8379941757,
           "sample_share": 0.4202831207,
           "mean_spy_ret_1d": 0.0010424602,
           "mean_qqq_ret_1d": 0.0013178969,
@@ -4703,7 +4703,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -51567.93328231023,
+        "log_likelihood": -51567.93328231235,
         "converged": true,
         "iterations": 103,
         "states_observed": 3
@@ -4717,7 +4717,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 317.4129823289,
+          "effective_observations": 317.4129823291,
           "sample_share": 0.1240863887,
           "mean_spy_ret_1d": -0.0025082314,
           "mean_qqq_ret_1d": -0.0025544788,
@@ -4728,7 +4728,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1111.6176235674,
+          "effective_observations": 1111.6176235643,
           "sample_share": 0.4345651382,
           "mean_spy_ret_1d": 0.0007437907,
           "mean_qqq_ret_1d": 0.0009670937,
@@ -4739,7 +4739,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1128.9693941036,
+          "effective_observations": 1128.9693941066,
           "sample_share": 0.4413484731,
           "mean_spy_ret_1d": 0.0010449415,
           "mean_qqq_ret_1d": 0.0013373223,
@@ -4757,7 +4757,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -50149.56945545969,
+        "log_likelihood": -50149.569455459685,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -4771,7 +4771,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 231.2206910512,
+          "effective_observations": 231.2206910508,
           "sample_share": 0.089655173,
           "mean_spy_ret_1d": -0.001927691,
           "mean_qqq_ret_1d": -0.0015983394,
@@ -4782,7 +4782,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1174.2654161973,
+          "effective_observations": 1174.2654161982,
           "sample_share": 0.4553181141,
           "mean_spy_ret_1d": 0.000488488,
           "mean_qqq_ret_1d": 0.0006240918,
@@ -4793,7 +4793,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1173.5138927515,
+          "effective_observations": 1173.513892751,
           "sample_share": 0.455026713,
           "mean_spy_ret_1d": 0.0010300608,
           "mean_qqq_ret_1d": 0.0013272665,
@@ -4811,7 +4811,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -50490.100679820294,
+        "log_likelihood": -50490.10067982215,
         "converged": true,
         "iterations": 32,
         "states_observed": 3
@@ -4825,7 +4825,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 249.9619038553,
+          "effective_observations": 249.9619038554,
           "sample_share": 0.0961761846,
           "mean_spy_ret_1d": -0.0016308536,
           "mean_qqq_ret_1d": -0.0012849991,
@@ -4836,18 +4836,18 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1175.0172389662,
+          "effective_observations": 1175.0172389617,
           "sample_share": 0.4521035933,
           "mean_spy_ret_1d": 0.0004978172,
           "mean_qqq_ret_1d": 0.0006390881,
           "mean_tlt_ret_1d": 0.0003257816,
-          "mean_vix_close": 18.1485562886,
+          "mean_vix_close": 18.1485562887,
           "mean_yield_curve_slope_pct": 1.6004979734
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1174.0208571785,
+          "effective_observations": 1174.0208571829,
           "sample_share": 0.4517202221,
           "mean_spy_ret_1d": 0.0010288429,
           "mean_qqq_ret_1d": 0.0013259967,
@@ -5027,7 +5027,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -52769.213730710195,
+        "log_likelihood": -52769.213730712836,
         "converged": true,
         "iterations": 41,
         "states_observed": 3
@@ -5041,18 +5041,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 255.5397285082,
+          "effective_observations": 255.5397285102,
           "sample_share": 0.0951730832,
           "mean_spy_ret_1d": -0.0020662571,
           "mean_qqq_ret_1d": -0.0017263641,
           "mean_tlt_ret_1d": 0.0018947483,
-          "mean_vix_close": 34.3769402407,
+          "mean_vix_close": 34.3769402406,
           "mean_yield_curve_slope_pct": 1.2716638229
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1239.5315721332,
+          "effective_observations": 1239.5315721278,
           "sample_share": 0.4616504924,
           "mean_spy_ret_1d": 0.0006633416,
           "mean_qqq_ret_1d": 0.0008574856,
@@ -5063,7 +5063,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1189.9286993586,
+          "effective_observations": 1189.9286993619,
           "sample_share": 0.4431764243,
           "mean_spy_ret_1d": 0.0010102798,
           "mean_qqq_ret_1d": 0.0013046707,
@@ -5189,7 +5189,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -54379.026963083954,
+        "log_likelihood": -54379.02696308363,
         "converged": true,
         "iterations": 61,
         "states_observed": 3
@@ -5203,18 +5203,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 255.9649618677,
+          "effective_observations": 255.9649618664,
           "sample_share": 0.0931120269,
           "mean_spy_ret_1d": -0.0019056026,
           "mean_qqq_ret_1d": -0.0016839071,
           "mean_tlt_ret_1d": 0.0017037219,
-          "mean_vix_close": 34.5490858579,
+          "mean_vix_close": 34.549085858,
           "mean_yield_curve_slope_pct": 1.2658261849
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1285.9913675814,
+          "effective_observations": 1285.9913675864,
           "sample_share": 0.4678033349,
           "mean_spy_ret_1d": 0.000688675,
           "mean_qqq_ret_1d": 0.0009118913,
@@ -5225,8 +5225,8 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1207.0436705509,
-          "sample_share": 0.4390846383,
+          "effective_observations": 1207.0436705472,
+          "sample_share": 0.4390846382,
           "mean_spy_ret_1d": 0.0010076324,
           "mean_qqq_ret_1d": 0.0012941703,
           "mean_tlt_ret_1d": 0.0001260827,
@@ -5243,7 +5243,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -54860.57833252892,
+        "log_likelihood": -54860.5783325275,
         "converged": true,
         "iterations": 73,
         "states_observed": 3
@@ -5257,7 +5257,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 260.3676709066,
+          "effective_observations": 260.3676709058,
           "sample_share": 0.0940634649,
           "mean_spy_ret_1d": -0.0019995749,
           "mean_qqq_ret_1d": -0.0018102113,
@@ -5268,7 +5268,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1312.1886579188,
+          "effective_observations": 1312.1886579163,
           "sample_share": 0.4740565961,
           "mean_spy_ret_1d": 0.0007038272,
           "mean_qqq_ret_1d": 0.0009396954,
@@ -5279,12 +5279,12 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1195.4436711747,
+          "effective_observations": 1195.4436711778,
           "sample_share": 0.431879939,
           "mean_spy_ret_1d": 0.0010054437,
           "mean_qqq_ret_1d": 0.0012936731,
           "mean_tlt_ret_1d": 0.0001183412,
-          "mean_vix_close": 13.2988775628,
+          "mean_vix_close": 13.2988775629,
           "mean_yield_curve_slope_pct": 1.2169842162
         }
       ]
@@ -5297,7 +5297,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -55324.214749351464,
+        "log_likelihood": -55324.214749351566,
         "converged": true,
         "iterations": 86,
         "states_observed": 3
@@ -5311,7 +5311,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 260.8908907748,
+          "effective_observations": 260.8908907759,
           "sample_share": 0.0936099357,
           "mean_spy_ret_1d": -0.0021098069,
           "mean_qqq_ret_1d": -0.0019275879,
@@ -5322,7 +5322,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1330.758512781,
+          "effective_observations": 1330.7585127769,
           "sample_share": 0.4774878051,
           "mean_spy_ret_1d": 0.0007406632,
           "mean_qqq_ret_1d": 0.0009543863,
@@ -5333,7 +5333,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1195.3505964442,
+          "effective_observations": 1195.3505964472,
           "sample_share": 0.4289022592,
           "mean_spy_ret_1d": 0.0010020908,
           "mean_qqq_ret_1d": 0.0012894706,
@@ -5459,7 +5459,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -56832.071278290176,
+        "log_likelihood": -56832.07127829113,
         "converged": true,
         "iterations": 74,
         "states_observed": 3
@@ -5473,7 +5473,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 250.7879647122,
+          "effective_observations": 250.7879647128,
           "sample_share": 0.0879649122,
           "mean_spy_ret_1d": -0.0019716302,
           "mean_qqq_ret_1d": -0.0017298649,
@@ -5484,7 +5484,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1368.0815500153,
+          "effective_observations": 1368.0815500198,
           "sample_share": 0.479860242,
           "mean_spy_ret_1d": 0.0007255639,
           "mean_qqq_ret_1d": 0.0009223452,
@@ -5495,7 +5495,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1232.1304852724,
+          "effective_observations": 1232.1304852674,
           "sample_share": 0.4321748458,
           "mean_spy_ret_1d": 0.0010062603,
           "mean_qqq_ret_1d": 0.0012574169,
@@ -5513,7 +5513,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -57285.613765288224,
+        "log_likelihood": -57285.613765291455,
         "converged": true,
         "iterations": 155,
         "states_observed": 3
@@ -5527,7 +5527,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 249.6982865952,
+          "effective_observations": 249.6982865957,
           "sample_share": 0.0869120385,
           "mean_spy_ret_1d": -0.0019546197,
           "mean_qqq_ret_1d": -0.0017072505,
@@ -5538,7 +5538,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1363.370544412,
+          "effective_observations": 1363.3705444143,
           "sample_share": 0.4745459605,
           "mean_spy_ret_1d": 0.0007169687,
           "mean_qqq_ret_1d": 0.0009108772,
@@ -5549,7 +5549,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1259.9311689929,
+          "effective_observations": 1259.93116899,
           "sample_share": 0.438542001,
           "mean_spy_ret_1d": 0.0010088509,
           "mean_qqq_ret_1d": 0.0012882477,
@@ -5567,7 +5567,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -57746.08420532476,
+        "log_likelihood": -57746.084205326464,
         "converged": true,
         "iterations": 48,
         "states_observed": 3
@@ -5581,7 +5581,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 248.8695725426,
+          "effective_observations": 248.869572542,
           "sample_share": 0.0859950147,
           "mean_spy_ret_1d": -0.0019523888,
           "mean_qqq_ret_1d": -0.0017012669,
@@ -5592,7 +5592,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1360.8368739035,
+          "effective_observations": 1360.8368739006,
           "sample_share": 0.4702269779,
           "mean_spy_ret_1d": 0.0007165844,
           "mean_qqq_ret_1d": 0.0009112008,
@@ -5603,7 +5603,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1284.2935535539,
+          "effective_observations": 1284.2935535575,
           "sample_share": 0.4437780074,
           "mean_spy_ret_1d": 0.0010090308,
           "mean_qqq_ret_1d": 0.001285345,
@@ -5621,7 +5621,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -58228.68077266898,
+        "log_likelihood": -58228.68077266882,
         "converged": true,
         "iterations": 30,
         "states_observed": 3
@@ -5635,7 +5635,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 204.9837979491,
+          "effective_observations": 204.983797949,
           "sample_share": 0.070296227,
           "mean_spy_ret_1d": -0.0020383087,
           "mean_qqq_ret_1d": -0.0016783021,
@@ -5646,7 +5646,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1295.5567483063,
+          "effective_observations": 1295.5567483077,
           "sample_share": 0.4442924377,
           "mean_spy_ret_1d": 0.0006204994,
           "mean_qqq_ret_1d": 0.0008083903,
@@ -5657,7 +5657,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1415.4594537447,
+          "effective_observations": 1415.4594537433,
           "sample_share": 0.4854113353,
           "mean_spy_ret_1d": 0.0010093655,
           "mean_qqq_ret_1d": 0.0012758171,
@@ -5675,7 +5675,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -58689.31655076937,
+        "log_likelihood": -58689.316550764284,
         "converged": true,
         "iterations": 32,
         "states_observed": 3
@@ -5689,7 +5689,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 246.1497542869,
+          "effective_observations": 246.1497542875,
           "sample_share": 0.0838099266,
           "mean_spy_ret_1d": -0.0019440115,
           "mean_qqq_ret_1d": -0.0016866863,
@@ -5700,18 +5700,18 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1350.215430411,
+          "effective_observations": 1350.2154304054,
           "sample_share": 0.4597260573,
           "mean_spy_ret_1d": 0.0006839211,
           "mean_qqq_ret_1d": 0.0008782404,
           "mean_tlt_ret_1d": 0.0001802278,
           "mean_vix_close": 19.3493602801,
-          "mean_yield_curve_slope_pct": 1.4549870705
+          "mean_yield_curve_slope_pct": 1.4549870706
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1340.634815302,
+          "effective_observations": 1340.6348153072,
           "sample_share": 0.4564640161,
           "mean_spy_ret_1d": 0.0009867283,
           "mean_qqq_ret_1d": 0.0012538191,
@@ -5729,7 +5729,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -59164.58576304542,
+        "log_likelihood": -59164.58576304682,
         "converged": true,
         "iterations": 91,
         "states_observed": 3
@@ -5743,7 +5743,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 207.4843764869,
+          "effective_observations": 207.4843764865,
           "sample_share": 0.0701434674,
           "mean_spy_ret_1d": -0.0020502442,
           "mean_qqq_ret_1d": -0.0017087557,
@@ -5754,7 +5754,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1319.1021847517,
+          "effective_observations": 1319.1021847504,
           "sample_share": 0.4459439435,
           "mean_spy_ret_1d": 0.0006395201,
           "mean_qqq_ret_1d": 0.0008143586,
@@ -5765,7 +5765,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1431.4134387613,
+          "effective_observations": 1431.413438763,
           "sample_share": 0.4839125892,
           "mean_spy_ret_1d": 0.0009905986,
           "mean_qqq_ret_1d": 0.0012634352,
@@ -5783,7 +5783,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -59616.18697845031,
+        "log_likelihood": -59616.18697845324,
         "converged": true,
         "iterations": 35,
         "states_observed": 3
@@ -5797,18 +5797,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 207.7142288469,
+          "effective_observations": 207.7142288455,
           "sample_share": 0.0697261594,
           "mean_spy_ret_1d": -0.0021711442,
           "mean_qqq_ret_1d": -0.0018119712,
           "mean_tlt_ret_1d": 0.0018161632,
-          "mean_vix_close": 36.4763512811,
+          "mean_vix_close": 36.4763512812,
           "mean_yield_curve_slope_pct": 1.2782508126
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1316.4812782788,
+          "effective_observations": 1316.4812782751,
           "sample_share": 0.4419205365,
           "mean_spy_ret_1d": 0.0006230741,
           "mean_qqq_ret_1d": 0.000794082,
@@ -5819,7 +5819,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1454.8044928743,
+          "effective_observations": 1454.8044928794,
           "sample_share": 0.4883533041,
           "mean_spy_ret_1d": 0.0010031982,
           "mean_qqq_ret_1d": 0.0012922531,
@@ -5891,7 +5891,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -60625.91582265747,
+        "log_likelihood": -60625.91582266087,
         "converged": true,
         "iterations": 51,
         "states_observed": 3
@@ -5905,7 +5905,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 190.3550323797,
+          "effective_observations": 190.3550323794,
           "sample_share": 0.0630106032,
           "mean_spy_ret_1d": -0.0019226625,
           "mean_qqq_ret_1d": -0.0013653375,
@@ -5916,7 +5916,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1262.9676343737,
+          "effective_observations": 1262.9676343747,
           "sample_share": 0.4180627721,
           "mean_spy_ret_1d": 0.0005451936,
           "mean_qqq_ret_1d": 0.000591811,
@@ -5927,7 +5927,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1567.6773332466,
+          "effective_observations": 1567.6773332459,
           "sample_share": 0.5189266247,
           "mean_spy_ret_1d": 0.0009567159,
           "mean_qqq_ret_1d": 0.0012674747,
@@ -5999,7 +5999,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -61524.245358180226,
+        "log_likelihood": -61524.24535818244,
         "converged": true,
         "iterations": 33,
         "states_observed": 3
@@ -6013,7 +6013,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 216.221968718,
+          "effective_observations": 216.2219687191,
           "sample_share": 0.0705915667,
           "mean_spy_ret_1d": -0.001331928,
           "mean_qqq_ret_1d": -0.0007805748,
@@ -6024,7 +6024,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1273.8837290853,
+          "effective_observations": 1273.8837290883,
           "sample_share": 0.4158941329,
           "mean_spy_ret_1d": 0.0004865934,
           "mean_qqq_ret_1d": 0.000520256,
@@ -6035,7 +6035,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1572.8943021967,
+          "effective_observations": 1572.8943021926,
           "sample_share": 0.5135143004,
           "mean_spy_ret_1d": 0.0009547349,
           "mean_qqq_ret_1d": 0.0012645465,
@@ -6053,7 +6053,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -62013.87202666322,
+        "log_likelihood": -62013.87202666753,
         "converged": true,
         "iterations": 64,
         "states_observed": 3
@@ -6067,18 +6067,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 214.9016449707,
+          "effective_observations": 214.90164497,
           "sample_share": 0.0697053665,
           "mean_spy_ret_1d": -0.0016354053,
           "mean_qqq_ret_1d": -0.0011521785,
           "mean_tlt_ret_1d": 0.0012420391,
-          "mean_vix_close": 35.9864939359,
+          "mean_vix_close": 35.986493936,
           "mean_yield_curve_slope_pct": 1.1700049094
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1278.0977991292,
+          "effective_observations": 1278.0977991242,
           "sample_share": 0.4145630227,
           "mean_spy_ret_1d": 0.0004544136,
           "mean_qqq_ret_1d": 0.0004592553,
@@ -6089,7 +6089,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1590.0005559002,
+          "effective_observations": 1590.0005559057,
           "sample_share": 0.5157316107,
           "mean_spy_ret_1d": 0.0009527959,
           "mean_qqq_ret_1d": 0.0012593844,
@@ -6107,7 +6107,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -62478.095089212075,
+        "log_likelihood": -62478.095089207345,
         "converged": true,
         "iterations": 39,
         "states_observed": 3
@@ -6121,7 +6121,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 247.1353879611,
+          "effective_observations": 247.135387961,
           "sample_share": 0.0796183595,
           "mean_spy_ret_1d": -0.0016640669,
           "mean_qqq_ret_1d": -0.001411988,
@@ -6143,7 +6143,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1578.2398925249,
+          "effective_observations": 1578.239892525,
           "sample_share": 0.5084535736,
           "mean_spy_ret_1d": 0.0009518371,
           "mean_qqq_ret_1d": 0.001260143,
@@ -6323,7 +6323,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -64421.48815066556,
+        "log_likelihood": -64421.48815067322,
         "converged": true,
         "iterations": 51,
         "states_observed": 3
@@ -6337,29 +6337,29 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 272.5969535965,
+          "effective_observations": 272.5969535928,
           "sample_share": 0.0854803868,
           "mean_spy_ret_1d": -0.0018874704,
           "mean_qqq_ret_1d": -0.0016443419,
           "mean_tlt_ret_1d": 0.0008981366,
-          "mean_vix_close": 34.4949938769,
+          "mean_vix_close": 34.494993877,
           "mean_yield_curve_slope_pct": 0.9755507034
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1290.9396073603,
+          "effective_observations": 1290.9396073554,
           "sample_share": 0.4048101622,
           "mean_spy_ret_1d": 0.0004973036,
           "mean_qqq_ret_1d": 0.0005183265,
           "mean_tlt_ret_1d": 0.0001544183,
-          "mean_vix_close": 20.7039620702,
+          "mean_vix_close": 20.7039620703,
           "mean_yield_curve_slope_pct": 1.2481261147
         },
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1625.4634390432,
+          "effective_observations": 1625.4634390517,
           "sample_share": 0.5097094509,
           "mean_spy_ret_1d": 0.0009202221,
           "mean_qqq_ret_1d": 0.0012231373,
@@ -6431,7 +6431,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -65333.17187413411,
+        "log_likelihood": -65333.1718741329,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -6445,18 +6445,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 307.0266495452,
+          "effective_observations": 307.0266495466,
           "sample_share": 0.0950252707,
           "mean_spy_ret_1d": -0.0010845741,
           "mean_qqq_ret_1d": -0.0008602607,
           "mean_tlt_ret_1d": 0.0008392213,
           "mean_vix_close": 33.7165544714,
-          "mean_yield_curve_slope_pct": 0.826482309
+          "mean_yield_curve_slope_pct": 0.8264823091
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1286.3091582619,
+          "effective_observations": 1286.3091582628,
           "sample_share": 0.3981148741,
           "mean_spy_ret_1d": 0.0004712198,
           "mean_qqq_ret_1d": 0.0004585176,
@@ -6467,7 +6467,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1637.6641921928,
+          "effective_observations": 1637.6641921906,
           "sample_share": 0.5068598552,
           "mean_spy_ret_1d": 0.0009090333,
           "mean_qqq_ret_1d": 0.0012131505,
@@ -6485,7 +6485,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -65830.89612616923,
+        "log_likelihood": -65830.89612617283,
         "converged": true,
         "iterations": 49,
         "states_observed": 3
@@ -6499,29 +6499,29 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 311.016811062,
+          "effective_observations": 311.0168110664,
           "sample_share": 0.0956386258,
           "mean_spy_ret_1d": -0.0012247713,
           "mean_qqq_ret_1d": -0.0010075895,
           "mean_tlt_ret_1d": 0.0010195466,
-          "mean_vix_close": 33.5271462235,
+          "mean_vix_close": 33.5271462234,
           "mean_yield_curve_slope_pct": 0.7990944521
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1290.9015783401,
+          "effective_observations": 1290.9015783498,
           "sample_share": 0.3969562049,
           "mean_spy_ret_1d": 0.0004697915,
           "mean_qqq_ret_1d": 0.0004285086,
           "mean_tlt_ret_1d": 7.71297e-05,
-          "mean_vix_close": 20.7884104984,
+          "mean_vix_close": 20.7884104983,
           "mean_yield_curve_slope_pct": 1.2067898335
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1650.0816105979,
+          "effective_observations": 1650.0816105838,
           "sample_share": 0.5074051693,
           "mean_spy_ret_1d": 0.0008959067,
           "mean_qqq_ret_1d": 0.0012001855,
@@ -6539,7 +6539,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -66302.53869266616,
+        "log_likelihood": -66302.53869266644,
         "converged": true,
         "iterations": 29,
         "states_observed": 3
@@ -6553,30 +6553,30 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 308.0747636788,
+          "effective_observations": 308.0747636811,
           "sample_share": 0.0941548789,
           "mean_spy_ret_1d": -0.0012858827,
           "mean_qqq_ret_1d": -0.0010704396,
           "mean_tlt_ret_1d": 0.0010339431,
-          "mean_vix_close": 33.6178615247,
+          "mean_vix_close": 33.6178615246,
           "mean_yield_curve_slope_pct": 0.8098339658
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1304.3167585186,
+          "effective_observations": 1304.316758525,
           "sample_share": 0.3986298162,
           "mean_spy_ret_1d": 0.0005330367,
           "mean_qqq_ret_1d": 0.0005253159,
           "mean_tlt_ret_1d": 0.0001307538,
-          "mean_vix_close": 20.8059984987,
-          "mean_yield_curve_slope_pct": 1.1723407042
+          "mean_vix_close": 20.8059984986,
+          "mean_yield_curve_slope_pct": 1.1723407043
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1659.6084778026,
-          "sample_share": 0.507215305,
+          "effective_observations": 1659.6084777939,
+          "sample_share": 0.5072153049,
           "mean_spy_ret_1d": 0.0008838624,
           "mean_qqq_ret_1d": 0.0011858254,
           "mean_tlt_ret_1d": 9.58866e-05,
@@ -6593,7 +6593,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -66733.58239176252,
+        "log_likelihood": -66733.58239176196,
         "converged": true,
         "iterations": 30,
         "states_observed": 3
@@ -6607,18 +6607,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 307.7803087138,
+          "effective_observations": 307.7803087184,
           "sample_share": 0.0935218197,
           "mean_spy_ret_1d": -0.0013027851,
           "mean_qqq_ret_1d": -0.0010940108,
           "mean_tlt_ret_1d": 0.0010450552,
-          "mean_vix_close": 33.6409254626,
+          "mean_vix_close": 33.6409254625,
           "mean_yield_curve_slope_pct": 0.8161372569
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1319.9338289913,
+          "effective_observations": 1319.9338290035,
           "sample_share": 0.4010737858,
           "mean_spy_ret_1d": 0.0005168865,
           "mean_qqq_ret_1d": 0.0005292875,
@@ -6629,12 +6629,12 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1663.2858622949,
+          "effective_observations": 1663.2858622781,
           "sample_share": 0.5054043945,
           "mean_spy_ret_1d": 0.0008778417,
           "mean_qqq_ret_1d": 0.0011785438,
           "mean_tlt_ret_1d": 9.89759e-05,
-          "mean_vix_close": 14.2873054131,
+          "mean_vix_close": 14.287305413,
           "mean_yield_curve_slope_pct": 1.324234526
         }
       ]
@@ -6647,7 +6647,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -67248.61840654374,
+        "log_likelihood": -67248.61840654227,
         "converged": true,
         "iterations": 39,
         "states_observed": 3
@@ -6661,18 +6661,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 316.0574051855,
+          "effective_observations": 316.0574051862,
           "sample_share": 0.0953703697,
           "mean_spy_ret_1d": -0.0013254742,
           "mean_qqq_ret_1d": -0.0010192508,
           "mean_tlt_ret_1d": 0.001150256,
-          "mean_vix_close": 33.4334557773,
+          "mean_vix_close": 33.4334557772,
           "mean_yield_curve_slope_pct": 0.7907683012
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1329.5569215782,
+          "effective_observations": 1329.5569215764,
           "sample_share": 0.4011940017,
           "mean_spy_ret_1d": 0.000561322,
           "mean_qqq_ret_1d": 0.0005912689,
@@ -6683,7 +6683,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1668.3856732364,
+          "effective_observations": 1668.3856732373,
           "sample_share": 0.5034356286,
           "mean_spy_ret_1d": 0.0008702284,
           "mean_qqq_ret_1d": 0.0011692744,
@@ -6701,7 +6701,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -67701.13675668655,
+        "log_likelihood": -67701.13675668383,
         "converged": true,
         "iterations": 34,
         "states_observed": 3
@@ -6715,18 +6715,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 318.0430042834,
+          "effective_observations": 318.0430042801,
           "sample_share": 0.0954224435,
           "mean_spy_ret_1d": -0.0013490297,
           "mean_qqq_ret_1d": -0.001060043,
           "mean_tlt_ret_1d": 0.0011437848,
-          "mean_vix_close": 33.4119279745,
+          "mean_vix_close": 33.4119279746,
           "mean_yield_curve_slope_pct": 0.7971736698
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1347.0464218594,
+          "effective_observations": 1347.0464218536,
           "sample_share": 0.404154342,
           "mean_spy_ret_1d": 0.0005759708,
           "mean_qqq_ret_1d": 0.0006036113,
@@ -6737,12 +6737,12 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1667.9105738572,
+          "effective_observations": 1667.9105738663,
           "sample_share": 0.5004232145,
           "mean_spy_ret_1d": 0.0008686451,
           "mean_qqq_ret_1d": 0.0011660378,
           "mean_tlt_ret_1d": 0.000103512,
-          "mean_vix_close": 14.2982959946,
+          "mean_vix_close": 14.2982959947,
           "mean_yield_curve_slope_pct": 1.3228676449
         }
       ]
@@ -6755,7 +6755,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -68223.67661469766,
+        "log_likelihood": -68223.67661469778,
         "converged": true,
         "iterations": 33,
         "states_observed": 3
@@ -6769,7 +6769,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 321.1673498214,
+          "effective_observations": 321.1673498218,
           "sample_share": 0.0957279731,
           "mean_spy_ret_1d": -0.0013770084,
           "mean_qqq_ret_1d": -0.0011087542,
@@ -6780,7 +6780,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1368.2518919445,
+          "effective_observations": 1368.2518919482,
           "sample_share": 0.407824707,
           "mean_spy_ret_1d": 0.0005853418,
           "mean_qqq_ret_1d": 0.0006722266,
@@ -6791,7 +6791,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1665.5807582341,
+          "effective_observations": 1665.58075823,
           "sample_share": 0.4964473199,
           "mean_spy_ret_1d": 0.0008659279,
           "mean_qqq_ret_1d": 0.0011613891,
@@ -6809,7 +6809,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -68736.23064353713,
+        "log_likelihood": -68736.23064353957,
         "converged": true,
         "iterations": 40,
         "states_observed": 3
@@ -6823,18 +6823,18 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 328.4064380909,
+          "effective_observations": 328.4064380899,
           "sample_share": 0.0972767885,
           "mean_spy_ret_1d": -0.0013974071,
           "mean_qqq_ret_1d": -0.0011582281,
           "mean_tlt_ret_1d": 0.0011243224,
-          "mean_vix_close": 33.2131222905,
+          "mean_vix_close": 33.2131222906,
           "mean_yield_curve_slope_pct": 0.8075235611
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1388.0808098438,
+          "effective_observations": 1388.0808098339,
           "sample_share": 0.4111613773,
           "mean_spy_ret_1d": 0.000633778,
           "mean_qqq_ret_1d": 0.0007232864,
@@ -6845,7 +6845,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1659.5127520654,
+          "effective_observations": 1659.5127520762,
           "sample_share": 0.4915618341,
           "mean_spy_ret_1d": 0.0008697839,
           "mean_qqq_ret_1d": 0.0011670717,
@@ -6863,7 +6863,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -69218.02810673256,
+        "log_likelihood": -69218.02810673106,
         "converged": true,
         "iterations": 28,
         "states_observed": 3
@@ -6877,18 +6877,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 320.5811781553,
+          "effective_observations": 320.5811781562,
           "sample_share": 0.0943996402,
           "mean_spy_ret_1d": -0.0013678638,
           "mean_qqq_ret_1d": -0.0010940678,
           "mean_tlt_ret_1d": 0.0011491204,
-          "mean_vix_close": 33.3731914517,
+          "mean_vix_close": 33.3731914516,
           "mean_yield_curve_slope_pct": 0.804393529
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1365.6159889305,
+          "effective_observations": 1365.6159889314,
           "sample_share": 0.4021248495,
           "mean_spy_ret_1d": 0.0005839888,
           "mean_qqq_ret_1d": 0.0006568385,
@@ -6899,7 +6899,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1709.8028329142,
+          "effective_observations": 1709.8028329124,
           "sample_share": 0.5034755103,
           "mean_spy_ret_1d": 0.0008993535,
           "mean_qqq_ret_1d": 0.0012006196,
@@ -6971,7 +6971,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -70250.14707692279,
+        "log_likelihood": -70250.14707692005,
         "converged": true,
         "iterations": 29,
         "states_observed": 3
@@ -6985,18 +6985,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 321.9909029166,
+          "effective_observations": 321.9909029194,
           "sample_share": 0.0936292245,
           "mean_spy_ret_1d": -0.0013518108,
           "mean_qqq_ret_1d": -0.0010816806,
           "mean_tlt_ret_1d": 0.0011426498,
-          "mean_vix_close": 33.3466315295,
+          "mean_vix_close": 33.3466315294,
           "mean_yield_curve_slope_pct": 0.8071431954
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1377.5516098882,
+          "effective_observations": 1377.5516098939,
           "sample_share": 0.4005674934,
           "mean_spy_ret_1d": 0.0005522041,
           "mean_qqq_ret_1d": 0.0006235389,
@@ -7007,7 +7007,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1739.4574871952,
+          "effective_observations": 1739.4574871867,
           "sample_share": 0.5058032821,
           "mean_spy_ret_1d": 0.0008666419,
           "mean_qqq_ret_1d": 0.0011633562,
@@ -7079,7 +7079,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -71311.6201674899,
+        "log_likelihood": -71311.62016748746,
         "converged": true,
         "iterations": 58,
         "states_observed": 3
@@ -7093,7 +7093,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 358.0842586066,
+          "effective_observations": 358.0842586068,
           "sample_share": 0.1028386728,
           "mean_spy_ret_1d": -0.0012082039,
           "mean_qqq_ret_1d": -0.0010141336,
@@ -7104,18 +7104,18 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1405.7156709827,
+          "effective_observations": 1405.715670975,
           "sample_share": 0.4037092679,
           "mean_spy_ret_1d": 0.0005826931,
           "mean_qqq_ret_1d": 0.0006751556,
           "mean_tlt_ret_1d": 4.15405e-05,
-          "mean_vix_close": 20.3087549706,
+          "mean_vix_close": 20.3087549707,
           "mean_yield_curve_slope_pct": 0.9887478881
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1718.2000704107,
+          "effective_observations": 1718.2000704182,
           "sample_share": 0.4934520593,
           "mean_spy_ret_1d": 0.0008808106,
           "mean_qqq_ret_1d": 0.0011830719,
@@ -7187,7 +7187,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -72274.1655607257,
+        "log_likelihood": -72274.16556072417,
         "converged": true,
         "iterations": 50,
         "states_observed": 3
@@ -7201,7 +7201,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 394.9687946503,
+          "effective_observations": 394.9687946516,
           "sample_share": 0.1121114944,
           "mean_spy_ret_1d": -0.0012894026,
           "mean_qqq_ret_1d": -0.0011609278,
@@ -7212,7 +7212,7 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1521.46981725,
+          "effective_observations": 1521.4698172603,
           "sample_share": 0.4318676745,
           "mean_spy_ret_1d": 0.000656296,
           "mean_qqq_ret_1d": 0.000779965,
@@ -7223,12 +7223,12 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1606.5613880997,
+          "effective_observations": 1606.5613880881,
           "sample_share": 0.4560208311,
           "mean_spy_ret_1d": 0.0009162082,
           "mean_qqq_ret_1d": 0.00122284,
           "mean_tlt_ret_1d": 0.0001284281,
-          "mean_vix_close": 14.1686586813,
+          "mean_vix_close": 14.1686586812,
           "mean_yield_curve_slope_pct": 1.2749142336
         }
       ]
@@ -7241,7 +7241,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -72750.38067332895,
+        "log_likelihood": -72750.38067333389,
         "converged": true,
         "iterations": 142,
         "states_observed": 3
@@ -7255,7 +7255,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 402.5012070365,
+          "effective_observations": 402.5012070347,
           "sample_share": 0.1136046308,
           "mean_spy_ret_1d": -0.0013579223,
           "mean_qqq_ret_1d": -0.001250236,
@@ -7266,18 +7266,18 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1544.168928168,
+          "effective_observations": 1544.1689281614,
           "sample_share": 0.4358365589,
           "mean_spy_ret_1d": 0.0007205405,
           "mean_qqq_ret_1d": 0.0008521116,
           "mean_tlt_ret_1d": -8.95438e-05,
-          "mean_vix_close": 19.4952913682,
+          "mean_vix_close": 19.4952913683,
           "mean_yield_curve_slope_pct": 0.9417017459
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1596.3298647955,
+          "effective_observations": 1596.3298648039,
           "sample_share": 0.4505588103,
           "mean_spy_ret_1d": 0.0009062184,
           "mean_qqq_ret_1d": 0.001210714,
@@ -7349,7 +7349,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -73662.09932077804,
+        "log_likelihood": -73662.09932077608,
         "converged": true,
         "iterations": 60,
         "states_observed": 3
@@ -7363,18 +7363,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 408.2718386479,
+          "effective_observations": 408.2718386457,
           "sample_share": 0.1138833581,
           "mean_spy_ret_1d": -0.0013621383,
           "mean_qqq_ret_1d": -0.0012631831,
           "mean_tlt_ret_1d": 0.0012110099,
-          "mean_vix_close": 31.8558097039,
+          "mean_vix_close": 31.855809704,
           "mean_yield_curve_slope_pct": 0.8216447527
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1565.8804265087,
+          "effective_observations": 1565.8804264904,
           "sample_share": 0.4367867298,
           "mean_spy_ret_1d": 0.0006936725,
           "mean_qqq_ret_1d": 0.0008229475,
@@ -7385,7 +7385,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1610.8477348434,
+          "effective_observations": 1610.8477348639,
           "sample_share": 0.4493299121,
           "mean_spy_ret_1d": 0.0009155293,
           "mean_qqq_ret_1d": 0.0012059816,
@@ -7403,7 +7403,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -74129.28775402172,
+        "log_likelihood": -74129.28775402402,
         "converged": true,
         "iterations": 95,
         "states_observed": 3
@@ -7417,7 +7417,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 384.9506176521,
+          "effective_observations": 384.9506176501,
           "sample_share": 0.1067232098,
           "mean_spy_ret_1d": -0.0010758048,
           "mean_qqq_ret_1d": -0.0009154041,
@@ -7428,18 +7428,18 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1465.3448341333,
+          "effective_observations": 1465.3448341108,
           "sample_share": 0.4062503006,
           "mean_spy_ret_1d": 0.0005699995,
           "mean_qqq_ret_1d": 0.0006674102,
           "mean_tlt_ret_1d": 9.17788e-05,
-          "mean_vix_close": 19.9707358784,
+          "mean_vix_close": 19.9707358785,
           "mean_yield_curve_slope_pct": 0.9631920604
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1756.7045482146,
+          "effective_observations": 1756.7045482392,
           "sample_share": 0.4870264897,
           "mean_spy_ret_1d": 0.0009298786,
           "mean_qqq_ret_1d": 0.001224086,
@@ -7457,7 +7457,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -74541.19410373535,
+        "log_likelihood": -74541.19410373598,
         "converged": true,
         "iterations": 56,
         "states_observed": 3
@@ -7482,7 +7482,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1457.4472919754,
+          "effective_observations": 1457.4472919677,
           "sample_share": 0.4019435444,
           "mean_spy_ret_1d": 0.0005650284,
           "mean_qqq_ret_1d": 0.0006589668,
@@ -7493,7 +7493,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1784.4651204956,
+          "effective_observations": 1784.4651205034,
           "sample_share": 0.49213048,
           "mean_spy_ret_1d": 0.0009393634,
           "mean_qqq_ret_1d": 0.0012477922,
@@ -7511,7 +7511,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -75049.3914140803,
+        "log_likelihood": -75049.39141408427,
         "converged": true,
         "iterations": 55,
         "states_observed": 3
@@ -7525,7 +7525,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 385.6397058474,
+          "effective_observations": 385.6397058459,
           "sample_share": 0.1057126387,
           "mean_spy_ret_1d": -0.0010440283,
           "mean_qqq_ret_1d": -0.0008819593,
@@ -7536,7 +7536,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1465.4971726914,
+          "effective_observations": 1465.4971727094,
           "sample_share": 0.4017261987,
           "mean_spy_ret_1d": 0.0005344467,
           "mean_qqq_ret_1d": 0.0006079851,
@@ -7547,7 +7547,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1796.8631214613,
+          "effective_observations": 1796.8631214447,
           "sample_share": 0.4925611627,
           "mean_spy_ret_1d": 0.0009582116,
           "mean_qqq_ret_1d": 0.0012654586,
@@ -7619,7 +7619,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -76028.72915087077,
+        "log_likelihood": -76028.72915086859,
         "converged": true,
         "iterations": 37,
         "states_observed": 3
@@ -7633,29 +7633,29 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 387.6552356635,
+          "effective_observations": 387.6552356624,
           "sample_share": 0.1050556194,
           "mean_spy_ret_1d": -0.0011535162,
           "mean_qqq_ret_1d": -0.0010054284,
           "mean_tlt_ret_1d": 0.0010839638,
-          "mean_vix_close": 32.1554648429,
+          "mean_vix_close": 32.155464843,
           "mean_yield_curve_slope_pct": 0.8201700931
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1500.9334458787,
+          "effective_observations": 1500.9334458739,
           "sample_share": 0.4067570314,
           "mean_spy_ret_1d": 0.0005839123,
           "mean_qqq_ret_1d": 0.0006574202,
           "mean_tlt_ret_1d": 0.0001570237,
-          "mean_vix_close": 19.9477604525,
+          "mean_vix_close": 19.9477604526,
           "mean_yield_curve_slope_pct": 0.9365522255
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1801.4113184579,
+          "effective_observations": 1801.4113184637,
           "sample_share": 0.4881873492,
           "mean_spy_ret_1d": 0.0009544049,
           "mean_qqq_ret_1d": 0.0012595508,
@@ -7673,7 +7673,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -76573.4808019538,
+        "log_likelihood": -76573.48080195572,
         "converged": true,
         "iterations": 30,
         "states_observed": 3
@@ -7687,7 +7687,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 389.0106831628,
+          "effective_observations": 389.0106831617,
           "sample_share": 0.104769912,
           "mean_spy_ret_1d": -0.0011533823,
           "mean_qqq_ret_1d": -0.0010078827,
@@ -7698,7 +7698,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1505.4657446922,
+          "effective_observations": 1505.4657446895,
           "sample_share": 0.4054580514,
           "mean_spy_ret_1d": 0.0005716124,
           "mean_qqq_ret_1d": 0.0006425946,
@@ -7709,7 +7709,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1818.5235721449,
+          "effective_observations": 1818.5235721488,
           "sample_share": 0.4897720367,
           "mean_spy_ret_1d": 0.0009503522,
           "mean_qqq_ret_1d": 0.0012554308,
@@ -7727,7 +7727,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -77048.60617460775,
+        "log_likelihood": -77048.60617460994,
         "converged": true,
         "iterations": 45,
         "states_observed": 3
@@ -7741,7 +7741,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 394.880593442,
+          "effective_observations": 394.8805934431,
           "sample_share": 0.1057810323,
           "mean_spy_ret_1d": -0.0011590715,
           "mean_qqq_ret_1d": -0.0010281591,
@@ -7752,7 +7752,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1528.5179279888,
+          "effective_observations": 1528.5179279882,
           "sample_share": 0.409461004,
           "mean_spy_ret_1d": 0.000615643,
           "mean_qqq_ret_1d": 0.0006878065,
@@ -7763,7 +7763,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1809.6014785691,
+          "effective_observations": 1809.6014785687,
           "sample_share": 0.4847579637,
           "mean_spy_ret_1d": 0.0009478951,
           "mean_qqq_ret_1d": 0.001252327,
@@ -7781,7 +7781,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -77519.83486591106,
+        "log_likelihood": -77519.83486591354,
         "converged": true,
         "iterations": 54,
         "states_observed": 3
@@ -7795,7 +7795,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 397.7511476047,
+          "effective_observations": 397.7511476035,
           "sample_share": 0.1059539551,
           "mean_spy_ret_1d": -0.0012162019,
           "mean_qqq_ret_1d": -0.0011023898,
@@ -7806,18 +7806,18 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1540.860067702,
+          "effective_observations": 1540.8600676942,
           "sample_share": 0.410458196,
           "mean_spy_ret_1d": 0.0006115653,
           "mean_qqq_ret_1d": 0.0006845632,
           "mean_tlt_ret_1d": 0.000124752,
-          "mean_vix_close": 19.8092976064,
+          "mean_vix_close": 19.8092976065,
           "mean_yield_curve_slope_pct": 0.9172252811
         },
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1815.3887846933,
+          "effective_observations": 1815.3887847023,
           "sample_share": 0.4835878489,
           "mean_spy_ret_1d": 0.0009455433,
           "mean_qqq_ret_1d": 0.0012676822,
@@ -7835,7 +7835,7 @@
       "signal_rows": 19,
       "selected_fit": {
         "seed": 7,
-        "log_likelihood": -77999.03510075547,
+        "log_likelihood": -77999.03510075038,
         "converged": true,
         "iterations": 49,
         "states_observed": 3
@@ -7849,29 +7849,29 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 404.2941790001,
+          "effective_observations": 404.2941789948,
           "sample_share": 0.1071261736,
           "mean_spy_ret_1d": -0.0012391167,
           "mean_qqq_ret_1d": -0.0011355943,
           "mean_tlt_ret_1d": 0.0010571664,
-          "mean_vix_close": 31.9422282226,
+          "mean_vix_close": 31.9422282227,
           "mean_yield_curve_slope_pct": 0.8120943979
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1563.2333373258,
-          "sample_share": 0.4142112712,
+          "effective_observations": 1563.2333373157,
+          "sample_share": 0.4142112711,
           "mean_spy_ret_1d": 0.0006406136,
           "mean_qqq_ret_1d": 0.0007149519,
           "mean_tlt_ret_1d": 0.0001170368,
-          "mean_vix_close": 19.7247928876,
+          "mean_vix_close": 19.7247928877,
           "mean_yield_curve_slope_pct": 0.9118192354
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1806.4724836742,
+          "effective_observations": 1806.4724836895,
           "sample_share": 0.4786625553,
           "mean_spy_ret_1d": 0.0009421186,
           "mean_qqq_ret_1d": 0.0012633141,
@@ -7889,7 +7889,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -78420.86053801236,
+        "log_likelihood": -78420.86053801044,
         "converged": true,
         "iterations": 35,
         "states_observed": 3
@@ -7903,18 +7903,18 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 403.9313639111,
+          "effective_observations": 403.9313639142,
           "sample_share": 0.1064939003,
           "mean_spy_ret_1d": -0.0012021394,
           "mean_qqq_ret_1d": -0.0010943862,
           "mean_tlt_ret_1d": 0.0010410977,
-          "mean_vix_close": 31.9480134519,
+          "mean_vix_close": 31.9480134518,
           "mean_yield_curve_slope_pct": 0.8121851047
         },
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1569.1657246095,
+          "effective_observations": 1569.1657246053,
           "sample_share": 0.4137004283,
           "mean_spy_ret_1d": 0.0006004117,
           "mean_qqq_ret_1d": 0.0006540207,
@@ -7925,7 +7925,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1819.9029114794,
+          "effective_observations": 1819.9029114805,
           "sample_share": 0.4798056714,
           "mean_spy_ret_1d": 0.0009526077,
           "mean_qqq_ret_1d": 0.0012804777,
@@ -7997,7 +7997,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 19,
-        "log_likelihood": -78936.27578689063,
+        "log_likelihood": -78936.27578689605,
         "converged": true,
         "iterations": 49,
         "states_observed": 3
@@ -8011,7 +8011,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 417.6180017304,
+          "effective_observations": 417.6180017303,
           "sample_share": 0.1088964802,
           "mean_spy_ret_1d": -0.0011381191,
           "mean_qqq_ret_1d": -0.000979845,
@@ -8022,8 +8022,8 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1591.7593861751,
-          "sample_share": 0.4150611176,
+          "effective_observations": 1591.7593861918,
+          "sample_share": 0.4150611177,
           "mean_spy_ret_1d": 0.0005475293,
           "mean_qqq_ret_1d": 0.0005878571,
           "mean_tlt_ret_1d": 0.0001728572,
@@ -8033,7 +8033,7 @@
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1825.6226120945,
+          "effective_observations": 1825.6226120779,
           "sample_share": 0.4760424021,
           "mean_spy_ret_1d": 0.0009533866,
           "mean_qqq_ret_1d": 0.0012814597,
@@ -8051,7 +8051,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -79388.0234077467,
+        "log_likelihood": -79388.0234077485,
         "converged": true,
         "iterations": 27,
         "states_observed": 3
@@ -8065,7 +8065,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 425.4139897267,
+          "effective_observations": 425.4139897252,
           "sample_share": 0.1103252048,
           "mean_spy_ret_1d": -0.0010411847,
           "mean_qqq_ret_1d": -0.0008605776,
@@ -8076,18 +8076,18 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1602.8565708483,
+          "effective_observations": 1602.8565708365,
           "sample_share": 0.4156785713,
           "mean_spy_ret_1d": 0.0005643834,
           "mean_qqq_ret_1d": 0.0006155911,
           "mean_tlt_ret_1d": 0.0001647434,
-          "mean_vix_close": 19.7883093028,
+          "mean_vix_close": 19.7883093029,
           "mean_yield_curve_slope_pct": 0.8957922407
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1827.7294394251,
+          "effective_observations": 1827.7294394383,
           "sample_share": 0.4739962239,
           "mean_spy_ret_1d": 0.0009504897,
           "mean_qqq_ret_1d": 0.0012774856,
@@ -8105,7 +8105,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -79870.65470840657,
+        "log_likelihood": -79870.65470840535,
         "converged": true,
         "iterations": 28,
         "states_observed": 3
@@ -8119,7 +8119,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 428.7114744187,
+          "effective_observations": 428.7114744183,
           "sample_share": 0.1106066755,
           "mean_spy_ret_1d": -0.0010542287,
           "mean_qqq_ret_1d": -0.0008784423,
@@ -8130,7 +8130,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1619.795258591,
+          "effective_observations": 1619.7952585818,
           "sample_share": 0.4179038335,
           "mean_spy_ret_1d": 0.0005893614,
           "mean_qqq_ret_1d": 0.0006484839,
@@ -8141,7 +8141,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1827.4932669903,
+          "effective_observations": 1827.4932669999,
           "sample_share": 0.471489491,
           "mean_spy_ret_1d": 0.000955839,
           "mean_qqq_ret_1d": 0.0012827602,
@@ -8213,7 +8213,7 @@
       "signal_rows": 21,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -80707.65053546673,
+        "log_likelihood": -80707.65053546836,
         "converged": true,
         "iterations": 26,
         "states_observed": 3
@@ -8227,30 +8227,30 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 428.9799405995,
+          "effective_observations": 428.9799406019,
           "sample_share": 0.1094615822,
           "mean_spy_ret_1d": -0.0010418325,
           "mean_qqq_ret_1d": -0.0008659214,
           "mean_tlt_ret_1d": 0.0008663553,
-          "mean_vix_close": 31.8787331486,
+          "mean_vix_close": 31.8787331485,
           "mean_yield_curve_slope_pct": 0.79403988
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1623.1727017347,
+          "effective_observations": 1623.1727017652,
           "sample_share": 0.4141803271,
           "mean_spy_ret_1d": 0.0005771063,
           "mean_qqq_ret_1d": 0.0006354959,
           "mean_tlt_ret_1d": 0.0001711454,
-          "mean_vix_close": 19.7450803513,
+          "mean_vix_close": 19.7450803512,
           "mean_yield_curve_slope_pct": 0.8926763773
         },
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1866.8473576658,
-          "sample_share": 0.4763580908,
+          "effective_observations": 1866.8473576329,
+          "sample_share": 0.4763580907,
           "mean_spy_ret_1d": 0.000966071,
           "mean_qqq_ret_1d": 0.0012816533,
           "mean_tlt_ret_1d": -4.48985e-05,
@@ -8267,7 +8267,7 @@
       "signal_rows": 23,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -81069.75210296927,
+        "log_likelihood": -81069.75210296751,
         "converged": true,
         "iterations": 27,
         "states_observed": 3
@@ -8281,18 +8281,18 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 430.3505700347,
+          "effective_observations": 430.3505700333,
           "sample_share": 0.109226033,
           "mean_spy_ret_1d": -0.0010490146,
           "mean_qqq_ret_1d": -0.0008754581,
           "mean_tlt_ret_1d": 0.0008654638,
-          "mean_vix_close": 31.8615584853,
+          "mean_vix_close": 31.8615584854,
           "mean_yield_curve_slope_pct": 0.7933379348
         },
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1630.4230407859,
+          "effective_observations": 1630.4230407753,
           "sample_share": 0.4138129545,
           "mean_spy_ret_1d": 0.0005832128,
           "mean_qqq_ret_1d": 0.0006436381,
@@ -8303,7 +8303,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1879.2263891794,
+          "effective_observations": 1879.2263891914,
           "sample_share": 0.4769610125,
           "mean_spy_ret_1d": 0.0009733365,
           "mean_qqq_ret_1d": 0.0012945521,
@@ -8375,7 +8375,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -82050.77933989775,
+        "log_likelihood": -82050.77933990158,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -8389,7 +8389,7 @@
         {
           "ordered_state": 0,
           "raw_state": 1,
-          "effective_observations": 442.2244368195,
+          "effective_observations": 442.2244368201,
           "sample_share": 0.1110558606,
           "mean_spy_ret_1d": -0.0010500524,
           "mean_qqq_ret_1d": -0.0008981032,
@@ -8400,7 +8400,7 @@
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1668.6415756626,
+          "effective_observations": 1668.6415756357,
           "sample_share": 0.4190461014,
           "mean_spy_ret_1d": 0.0005994868,
           "mean_qqq_ret_1d": 0.0006609452,
@@ -8411,7 +8411,7 @@
         {
           "ordered_state": 2,
           "raw_state": 2,
-          "effective_observations": 1871.133987518,
+          "effective_observations": 1871.1339875442,
           "sample_share": 0.4698980381,
           "mean_spy_ret_1d": 0.0009725519,
           "mean_qqq_ret_1d": 0.0013008031,
@@ -8429,7 +8429,7 @@
       "signal_rows": 20,
       "selected_fit": {
         "seed": 23,
-        "log_likelihood": -82516.42762092336,
+        "log_likelihood": -82516.42762092478,
         "converged": true,
         "iterations": 39,
         "states_observed": 3
@@ -8443,7 +8443,7 @@
         {
           "ordered_state": 0,
           "raw_state": 0,
-          "effective_observations": 440.1078578115,
+          "effective_observations": 440.1078578125,
           "sample_share": 0.1099170474,
           "mean_spy_ret_1d": -0.0010455723,
           "mean_qqq_ret_1d": -0.0008897046,
@@ -8454,18 +8454,18 @@
         {
           "ordered_state": 1,
           "raw_state": 2,
-          "effective_observations": 1665.6535183295,
+          "effective_observations": 1665.6535183325,
           "sample_share": 0.4159973822,
           "mean_spy_ret_1d": 0.00058737,
           "mean_qqq_ret_1d": 0.0006497731,
           "mean_tlt_ret_1d": 0.0001640051,
-          "mean_vix_close": 19.6537333554,
+          "mean_vix_close": 19.6537333553,
           "mean_yield_curve_slope_pct": 0.8903466311
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1898.238623859,
+          "effective_observations": 1898.238623855,
           "sample_share": 0.4740855704,
           "mean_spy_ret_1d": 0.0009686163,
           "mean_qqq_ret_1d": 0.0012869526,
@@ -8537,7 +8537,7 @@
       "signal_rows": 22,
       "selected_fit": {
         "seed": 11,
-        "log_likelihood": -83307.68615623286,
+        "log_likelihood": -83307.68615623206,
         "converged": true,
         "iterations": 36,
         "states_observed": 3
@@ -8551,7 +8551,7 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 459.6825237141,
+          "effective_observations": 459.6825237152,
           "sample_share": 0.1136983734,
           "mean_spy_ret_1d": -0.0010386067,
           "mean_qqq_ret_1d": -0.0009336793,
@@ -8562,7 +8562,7 @@
         {
           "ordered_state": 1,
           "raw_state": 1,
-          "effective_observations": 1669.7084983153,
+          "effective_observations": 1669.7084983206,
           "sample_share": 0.4129875089,
           "mean_spy_ret_1d": 0.0005832618,
           "mean_qqq_ret_1d": 0.0006441145,
@@ -8573,7 +8573,7 @@
         {
           "ordered_state": 2,
           "raw_state": 0,
-          "effective_observations": 1913.6089779706,
+          "effective_observations": 1913.6089779642,
           "sample_share": 0.4733141177,
           "mean_spy_ret_1d": 0.0009758545,
           "mean_qqq_ret_1d": 0.0012948625,
@@ -8591,7 +8591,7 @@
       "signal_rows": 13,
       "selected_fit": {
         "seed": 31,
-        "log_likelihood": -83799.12754291594,
+        "log_likelihood": -83799.12754291369,
         "converged": true,
         "iterations": 25,
         "states_observed": 3
@@ -8605,29 +8605,29 @@
         {
           "ordered_state": 0,
           "raw_state": 2,
-          "effective_observations": 488.1435014853,
+          "effective_observations": 488.1435014835,
           "sample_share": 0.1200845022,
           "mean_spy_ret_1d": -0.0011052699,
           "mean_qqq_ret_1d": -0.0010217991,
           "mean_tlt_ret_1d": 0.000744261,
-          "mean_vix_close": 30.8590392876,
+          "mean_vix_close": 30.8590392877,
           "mean_yield_curve_slope_pct": 0.7671386416
         },
         {
           "ordered_state": 1,
           "raw_state": 0,
-          "effective_observations": 1667.7061819437,
+          "effective_observations": 1667.7061819313,
           "sample_share": 0.4102598234,
           "mean_spy_ret_1d": 0.0005946244,
           "mean_qqq_ret_1d": 0.0006611426,
           "mean_tlt_ret_1d": 0.0001579672,
-          "mean_vix_close": 19.6257542813,
+          "mean_vix_close": 19.6257542814,
           "mean_yield_curve_slope_pct": 0.888537651
         },
         {
           "ordered_state": 2,
           "raw_state": 1,
-          "effective_observations": 1909.150316571,
+          "effective_observations": 1909.1503165851,
           "sample_share": 0.4696556744,
           "mean_spy_ret_1d": 0.0009755577,
           "mean_qqq_ret_1d": 0.0012952514,

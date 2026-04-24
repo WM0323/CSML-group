@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+hmmlearn
+yfinance
+fredapi
+pyarrow
+pillow
